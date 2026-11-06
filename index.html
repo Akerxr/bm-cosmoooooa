@@ -1,0 +1,1102 @@
+<!DOCTYPE html>  
+<html lang="ar" dir="rtl" id="html-root">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>BM cosmetics 🎀</title>  
+<link rel="icon" type="image/png" href="https://i.postimg.cc/Vvv9H1mc/IMG-1048.png">  
+<link rel="apple-touch-icon" href="https://i.postimg.cc/Vvv9H1mc/IMG-1048.png">  
+<link rel="preconnect" href="https://fonts.googleapis.com">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+<style>  
+:root{--primary-pink:#ffb6c1;--deep-pink:#d81b60;--gold:#c5a059;--light-gold:#f4e8c1;--dark-bg:#fff5f8;--text-color:#333333;--white:#ffffff;--shadow:0 8px 25px rgba(197,160,89,0.12);}*{box-sizing:border-box;margin:0;padding:0;}html{scroll-behavior:smooth;overflow-x:hidden;}body{font-family:'Cairo',sans-serif;background:var(--dark-bg);color:var(--text-color);overflow-x:hidden;min-width:0;}img{max-width:100%;}button,input,textarea{font-family:inherit;}a{text-decoration:none;color:inherit;}#loading-screen{position:fixed;inset:0;z-index:999999;background:#ffffff;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:opacity .4s ease;animation:loaderAutoHide .4s ease 2s forwards;}@keyframes loaderAutoHide{to{opacity:0;visibility:hidden;pointer-events:none;}}#loading-screen img{width:120px;height:120px;object-fit:contain;margin-bottom:15px;animation:loadingPulse 1.2s infinite ease-in-out;}.loading-text{color:var(--deep-pink);font-size:18px;font-weight:900;}.loading-dots{display:flex;gap:5px;margin-top:10px;}.loading-dots span{width:7px;height:7px;background:var(--gold);border-radius:50%;animation:loadingDots 1s infinite ease-in-out;}.loading-dots span:nth-child(2){animation-delay:.15s;}.loading-dots span:nth-child(3){animation-delay:.3s;}@keyframes loadingPulse{0%,100%{transform:scale(1);}50%{transform:scale(1.06);}}@keyframes loadingDots{0%,100%{transform:translateY(0);opacity:.4;}50%{transform:translateY(-5px);opacity:1;}}navbar{position:sticky;top:0;z-index:1000;width:100%;min-height:65px;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(197,160,89,.18);display:flex;align-items:center;justify-content:space-between;gap:15px;padding:10px 25px;box-shadow:0 3px 15px rgba(0,0,0,.04);}.nav-brand{display:flex;align-items:center;gap:9px;flex-shrink:0;}.nav-brand img{width:40px;height:40px;object-fit:contain;}.nav-brand span{color:var(--deep-pink);font-weight:900;font-size:17px;white-space:nowrap;}.nav-links{display:flex;align-items:center;justify-content:center;gap:22px;flex:1;min-width:0;}.nav-links li{list-style:none;flex-shrink:0;}.nav-links a{position:relative;color:var(--text-color);font-size:14px;font-weight:600;white-space:nowrap;transition:.25s;}.nav-links a::after{content:"";position:absolute;right:0;bottom:-6px;width:0;height:2px;background:var(--deep-pink);transition:.25s;}.nav-links a:hover{color:var(--deep-pink);}.nav-links a:hover::after{width:100%;}.nav-actions{display:flex;align-items:center;gap:8px;flex-shrink:0;}.lang-btn,.cart-icon-btn{border:none;cursor:pointer;border-radius:8px;transition:.25s;}.lang-btn{background:var(--light-gold);color:#6b5221;padding:7px 12px;font-size:12px;font-weight:700;}.cart-icon-btn{position:relative;background:var(--deep-pink);color:white;padding:8px 11px;font-size:14px;}#cart-count{position:absolute;top:-7px;right:-7px;min-width:19px;height:19px;display:flex;justify-content:center;align-items:center;background:var(--gold);color:white;border-radius:50%;font-size:10px;font-weight:700;}.search-container{max-width:600px;margin:0 auto 30px auto;position:relative;}.search-input-wrap{position:relative;display:flex;align-items:center;}.search-input-wrap i{position:absolute;right:15px;color:var(--deep-pink);font-size:16px;}.search-input{width:100%;padding:12px 45px 12px 15px;border:1px solid rgba(197,160,89,.3);background:white;border-radius:12px;outline:none;font-size:14px;box-shadow:var(--shadow);transition:.25s;}.search-input:focus{border-color:var(--deep-pink);box-shadow:0 5px 15px rgba(216,27,96,0.1);}html[dir="ltr"] .search-input-wrap i{right:auto;left:15px;}html[dir="ltr"] .search-input{padding:12px 15px 12px 45px;}#floating-checkout{position:fixed;bottom:20px;left:20px;z-index:5000;display:none;align-items:center;justify-content:center;gap:9px;border:none;border-radius:12px;padding:12px 18px;background:var(--deep-pink);color:white;box-shadow:0 8px 25px rgba(216,27,96,.28);cursor:pointer;font-size:13px;font-weight:800;transition:.25s;}#floating-checkout.show{display:flex;}#floating-checkout:hover{transform:translateY(-3px);background:#b91450;}#floating-checkout i{font-size:15px;}#floating-cart-number{background:var(--gold);min-width:20px;height:20px;border-radius:50%;display:flex;justify-content:center;align-items:center;font-size:10px;}.hero{padding:55px 20px 30px;text-align:center;background:radial-gradient(circle at top right,rgba(255,182,193,.25),transparent 35%),radial-gradient(circle at bottom left,rgba(197,160,89,.13),transparent 35%);}.hero-logo{width:145px;height:145px;object-fit:contain;margin-bottom:12px;}.hero h1{color:var(--deep-pink);font-size:clamp(30px,5vw,48px);font-weight:900;margin-bottom:8px;}.hero p{color:#777;font-size:15px;}.container{width:100%;max-width:1200px;margin:auto;padding:0 20px;}.section{padding:35px 0;}.section-title{text-align:center;color:var(--deep-pink);font-size:28px;font-weight:900;margin-bottom:15px;}.section-subtitle{text-align:center;color:#777;margin-top:-10px;margin-bottom:25px;font-size:14px;}.categories-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}.category-card{position:relative;height:260px;overflow:hidden;border-radius:16px;cursor:pointer;box-shadow:var(--shadow);background:white;}.category-card img{width:100%;height:100%;object-fit:cover;transition:.4s ease;}.category-card::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.65),rgba(0,0,0,.05));}.category-card:hover img{transform:scale(1.05);}.category-name{position:absolute;z-index:2;bottom:18px;right:18px;left:18px;color:white;font-size:21px;font-weight:800;}.products-section{display:none;}.products-header{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:20px;}.products-header h2{color:var(--deep-pink);font-size:27px;font-weight:900;}.back-btn{border:none;background:var(--light-gold);color:#6b5221;padding:8px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:700;}.products-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;width:100%;}.product-card{background:var(--white);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);min-width:0;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease;}.product-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(197,160,89,.18);}.product-image-wrap{width:100%;height:240px;background:#fff;overflow:hidden;position:relative;}.product-image-wrap img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .3s ease;}.product-card:hover .product-image-wrap img{transform:scale(1.025);}.product-info{padding:11px 10px 13px;}.product-name{color:#333;font-size:15px;font-weight:700;line-height:1.5;min-height:48px;margin-bottom:5px;}.product-price{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:10px;}.old-price{color:#999;font-size:12px;text-decoration:line-through;}.new-price{color:var(--deep-pink);background:#fff3a8;padding:1px 5px;border-radius:2px;font-size:14px;font-weight:800;}.add-cart-btn{width:100%;border:none;background:var(--deep-pink);color:white;border-radius:7px;padding:10px 7px;cursor:pointer;font-size:12px;font-weight:700;transition:.25s;}.add-cart-btn:hover{background:#b91450;}#product-modal{position:fixed;inset:0;z-index:100000;display:none;align-items:center;justify-content:center;padding:15px;background:rgba(0,0,0,.55);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);opacity:0;transition:opacity .25s ease;}#product-modal.open{display:flex;}#product-modal.visible{opacity:1;}.modal-card{position:relative;width:100%;max-width:480px;max-height:92vh;overflow-y:auto;background:#fff;border-radius:18px;padding:20px 20px 22px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3);transform:scale(.85);transition:transform .25s ease;}#product-modal.visible .modal-card{transform:scale(1);}.modal-close{position:absolute;top:10px;left:10px;width:36px;height:36px;border:none;border-radius:50%;background:#ffe6ee;color:var(--deep-pink);font-size:16px;cursor:pointer;z-index:2;display:flex;align-items:center;justify-content:center;}.modal-close:hover{background:var(--deep-pink);color:#fff;}.modal-image-wrap{width:100%;height:340px;display:flex;align-items:center;justify-content:center;background:#fff;border-radius:12px;margin-bottom:14px;}.modal-image-wrap img{width:100%;height:100%;object-fit:contain;}.modal-image-wrap i{font-size:120px;color:var(--primary-pink);}.modal-name{font-size:19px;font-weight:800;line-height:1.6;color:#333;margin-bottom:10px;}.modal-price{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:16px;}.modal-price .old-price{font-size:15px;}.modal-price .new-price{font-size:20px;padding:2px 8px;}.modal-card .add-cart-btn{padding:13px 10px;font-size:15px;border-radius:10px;}.cart-section,.checkout-section{display:none;}.cart-box,.checkout-box{max-width:850px;margin:auto;background:white;border-radius:15px;box-shadow:var(--shadow);padding:25px;}.cart-items{display:flex;flex-direction:column;gap:12px;}.cart-item{display:flex;align-items:center;gap:15px;border-bottom:1px solid #eee;padding-bottom:12px;}.cart-item:last-child{border-bottom:none;}.cart-item-image{width:80px;height:80px;object-fit:contain;border-radius:8px;background:#fff8fa;flex-shrink:0;}.cart-item-info{flex:1;min-width:0;}.cart-item-name{font-weight:700;font-size:14px;margin-bottom:4px;}.cart-item-price{color:var(--deep-pink);font-weight:800;font-size:13px;margin-bottom:6px;}.quantity-controls{display:flex;align-items:center;gap:10px;}.qty-btn{background:#f4e8c1;color:#6b5221;border:none;width:26px;height:26px;border-radius:6px;cursor:pointer;font-weight:bold;display:flex;align-items:center;justify-content:center;transition:.2s;}.qty-btn:hover{background:var(--gold);color:white;}.qty-display{font-size:13px;font-weight:700;color:#444;}.remove-item{border:none;background:#ffe6ee;color:var(--deep-pink);width:32px;height:32px;border-radius:7px;cursor:pointer;flex-shrink:0;}.cart-total{border-top:1px solid #eee;margin-top:15px;padding-top:15px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:18px;font-weight:900;}.cart-total-value{color:var(--deep-pink);display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px;text-align:end;}.ship-plus{font-size:13px;font-weight:700;color:#8a6d2f;}.checkout-btn{width:100%;border:none;background:var(--deep-pink);color:white;padding:13px;border-radius:8px;cursor:pointer;margin-top:18px;font-weight:800;font-size:14px;}.empty-cart{text-align:center;padding:45px 15px;color:#999;}.empty-cart i{font-size:42px;color:var(--primary-pink);margin-bottom:12px;}.form-group{margin-bottom:16px;}.form-group label{display:block;margin-bottom:6px;font-size:13px;font-weight:700;color:#555;}.form-group input,.form-group textarea{width:100%;border:1px solid #ead9df;background:#fffafb;border-radius:8px;padding:11px 12px;outline:none;font-size:14px;}.form-group textarea{min-height:95px;resize:vertical;}.payment-title{font-size:15px;font-weight:800;margin-bottom:10px;}.payment-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:18px;}.payment-option{border:1px solid #ead9df;background:#fffafb;border-radius:10px;padding:12px;cursor:pointer;display:flex;align-items:center;gap:9px;}.payment-option:has(input:checked){border-color:var(--deep-pink);background:#fff1f5;}.payment-option input{accent-color:var(--deep-pink);}.payment-option img{width:35px;height:35px;object-fit:contain;}.payment-option i{color:var(--deep-pink);font-size:25px;width:35px;text-align:center;}.payment-option span{font-size:12px;font-weight:700;}footer{margin-top:45px;background:#fff;border-top:1px solid rgba(197,160,89,.2);padding:35px 20px 20px;text-align:center;}.footer-logo{width:75px;height:75px;object-fit:contain;margin-bottom:10px;}.footer-name{color:var(--deep-pink);font-size:20px;font-weight:900;margin-bottom:8px;}.footer-text{color:#777;font-size:13px;margin-bottom:18px;}.social-links{display:flex;justify-content:center;align-items:center;gap:12px;margin-bottom:20px;}.social-btn{width:42px;height:42px;border-radius:50%;display:flex;justify-content:center;align-items:center;color:white;transition:.25s;overflow:hidden;}.whatsapp-btn{background:#25D366;}.instagram-btn{background:linear-gradient(45deg,#fdf497,#fd5949,#d6249f,#285AEB);}.instagram-btn img{width:22px;height:22px;object-fit:contain;}.copyright{color:#999;font-size:11px;}@media (max-width:767px){navbar{padding:8px;gap:5px;min-height:58px;}.nav-brand{gap:5px;}.nav-brand img{width:34px;height:34px;}.nav-brand span{font-size:12px;}.nav-links{gap:9px;overflow-x:auto;overflow-y:hidden;justify-content:flex-start;scrollbar-width:none;}.nav-links::-webkit-scrollbar{display:none;}.nav-links a{font-size:11px;}.nav-actions{gap:4px;}.lang-btn{padding:6px 8px;font-size:10px;}.cart-icon-btn{padding:7px 9px;font-size:12px;}.hero{padding:35px 15px 25px;}.hero-logo{width:105px;height:105px;}.hero h1{font-size:30px;}.hero p{font-size:13px;}.container{padding:0 10px;}.section{padding:25px 0;}.section-title{font-size:22px;margin-bottom:12px;}.categories-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}.category-card{height:190px;border-radius:12px;}.category-name{bottom:12px;right:12px;left:12px;font-size:16px;}.products-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 9px;}.products-header{margin-bottom:14px;}.products-header h2{font-size:21px;}.back-btn{padding:7px 10px;font-size:11px;}.product-card{border-radius:9px;}.product-image-wrap{height:175px;}.product-info{padding:7px 6px 10px;}.product-name{font-size:12.5px;line-height:1.42;min-height:52px;margin-bottom:4px;}.product-price{gap:4px;margin-bottom:8px;}.old-price{font-size:10px;}.new-price{font-size:12px;padding:1px 3px;}.add-cart-btn{padding:9px 3px;font-size:10px;border-radius:5px;}.modal-card{padding:16px 14px 18px;}.modal-image-wrap{height:290px;}.modal-name{font-size:16px;}.modal-card .add-cart-btn{font-size:13px;}.cart-box,.checkout-box{padding:15px;border-radius:12px;}.cart-item{gap:9px;}.cart-item-image{width:65px;height:65px;}.cart-item-name{font-size:12px;}.cart-item-price{font-size:11px;}.cart-total{font-size:15px;}.ship-plus{font-size:11px;}.payment-options{grid-template-columns:1fr;}#floating-checkout{bottom:15px;left:12px;right:12px;justify-content:center;padding:11px 15px;font-size:12px;}footer{padding:28px 15px 18px;}}  
+</style>  
+<script>  
+(function () {  
+function removeLoader() {  
+var loader = document.getElementById("loading-screen");  
+if (!loader) return;  
+if (loader.dataset.closed === "1") return;  
+loader.dataset.closed = "1";  
+loader.style.opacity = "0";  
+setTimeout(function () {  
+if (loader) {  
+loader.style.display = "none";  
+loader.remove();  
+}  
+}, 400);  
+}  
+setTimeout(removeLoader, 1200);  
+setTimeout(removeLoader, 2500);  
+document.addEventListener("DOMContentLoaded", function () {  
+setTimeout(removeLoader, 800);  
+});  
+window.addEventListener("load", function () {  
+setTimeout(removeLoader, 300);  
+});  
+window.addEventListener("error", function () {  
+setTimeout(removeLoader, 500);  
+});  
+})();  
+</script>  
+</head>  
+<body>  
+<noscript><div style="position:fixed;top:0;left:0;right:0;z-index:2000000;background:#b00020;color:#fff;padding:12px;text-align:center;font:700 14px Cairo,sans-serif">JavaScript غير مفعّل في طريقة الفتح دي — افتح الملف من متصفح Chrome أو Safari أو ارفعه على الاستضافة</div></noscript>  
+<div id="loading-screen">  
+<img src="https://i.postimg.cc/Vvv9H1mc/IMG-1048.png" alt="BM cosmetics">  
+<div class="loading-text">BM cosmetics 🎀</div>  
+<div class="loading-dots">  
+<span></span>  
+<span></span>  
+<span></span>  
+</div>  
+</div>  
+<navbar>  
+<a href="#" class="nav-brand" onclick="showHome(); return false;">  
+<img src="https://i.postimg.cc/Vvv9H1mc/IMG-1048.png" alt="BM cosmetics">  
+<span>BM cosmetics 🎀</span>  
+</a>  
+<ul class="nav-links">  
+<li><a href="#" onclick="showHome(); return false;" data-translate="home">الرئيسية</a></li>  
+<li><a href="#categories" onclick="showHome();" data-translate="products">المنتجات</a></li>  
+<li><a href="#footer" data-translate="contact">تواصل معنا</a></li>  
+</ul>  
+<div class="nav-actions">  
+<button class="lang-btn" onclick="toggleLanguage()">  
+<span id="language-btn-text">EN</span>  
+</button>  
+<button class="cart-icon-btn" onclick="showCart()">  
+<i class="fa-solid fa-cart-shopping"></i>  
+<span id="cart-count">0</span>  
+</button>  
+</div>  
+</navbar>  
+<button id="floating-checkout" onclick="showCart()">  
+<i class="fa-solid fa-bag-shopping"></i>  
+<span id="floating-checkout-text" data-translate="checkout">إتمام الطلب</span>  
+<span id="floating-cart-number">0</span>  
+</button>  
+<main id="home-page">  
+<section class="hero">  
+<img class="hero-logo" src="https://i.postimg.cc/Vvv9H1mc/IMG-1048.png" alt="BM cosmetics">  
+<h1>BM cosmetics 🎀</h1>  
+<p data-translate="heroText">اختاري جمالك بعناية 💗</p>  
+</section>  
+<section class="section" id="categories">  
+<div class="container">  
+<h2 class="section-title" data-translate="categoriesTitle">الأقسام</h2>  
+<p class="section-subtitle" data-translate="categoriesSubtitle">اختاري القسم اللي تحبيه</p>  
+<div class="search-container">  
+<div class="search-input-wrap">  
+<i class="fa-solid fa-magnifying-glass"></i>  
+<input type="text" id="general-search-input" class="search-input" data-placeholder="searchAll" placeholder="ابحث عن أي منتج..." oninput="handleGeneralSearch(this.value)">  
+</div>  
+</div>  
+<div class="categories-grid" id="categories-grid-box">  
+<div class="category-card" onclick="openCategory('Skin Care')">  
+<img src="https://i.postimg.cc/W49wmhc9/IMG-1049.jpg" alt="Skin Care">  
+<div class="category-name">Skin Care</div>  
+</div>  
+<div class="category-card" onclick="openCategory('Hair Care')">  
+<img src="https://i.postimg.cc/m2xNyvJd/IMG-1050.jpg" alt="Hair Care">  
+<div class="category-name">Hair Care</div>  
+</div>  
+<div class="category-card" onclick="openCategory('Body Care')">  
+<img src="https://i.postimg.cc/15p0CWZ6/IMG-1051.jpg" alt="Body Care">  
+<div class="category-name">Body Care</div>  
+</div>  
+<div class="category-card" onclick="openCategory('Kids')">  
+<img src="https://i.postimg.cc/SKtc23cC/IMG-1052.jpg" alt="Kids">  
+<div class="category-name">Kids</div>  
+</div>  
+<div class="category-card" onclick="openCategory('Korean')">  
+<img src="https://i.postimg.cc/Bvw2Lk2k/IMG-1053.jpg" alt="Korean">  
+<div class="category-name">Korean</div>  
+</div>  
+</div>  
+</div>  
+</section>  
+</main>  
+<section class="section products-section" id="products-page">  
+<div class="container">  
+<div class="products-header">  
+<h2 id="category-title">Korean</h2>  
+<button class="back-btn" onclick="showHome()">  
+<i class="fa-solid fa-arrow-right"></i>  
+<span data-translate="back">رجوع</span>  
+</button>  
+</div>  
+<div class="search-container" style="margin-bottom: 25px;">  
+<div class="search-input-wrap">  
+<i class="fa-solid fa-magnifying-glass"></i>  
+<input type="text" id="category-search-input" class="search-input" data-placeholder="searchCategory" placeholder="ابحث داخل هذا القسم..." oninput="handleCategorySearch(this.value)">  
+</div>  
+</div>  
+<div class="products-grid" id="products-grid"></div>  
+</div>  
+</section>  
+<section class="section cart-section" id="cart-page">  
+<div class="container">  
+<div class="products-header">  
+<h2 data-translate="cartTitle">سلة المشتريات</h2>  
+<button class="back-btn" onclick="showHome()">  
+<i class="fa-solid fa-arrow-right"></i>  
+<span data-translate="back">رجوع</span>  
+</button>  
+</div>  
+<div class="cart-box">  
+<div class="cart-items" id="cart-items"></div>  
+<div class="cart-total">  
+<span data-translate="total">الإجمالي</span>  
+<span class="cart-total-value">  
+<span id="cart-total-price">0 EGP</span>  
+<span class="ship-plus" id="ship-plus" data-translate="shippingPlus">+ مصاريف الشحن</span>  
+</span>  
+</div>  
+<button class="checkout-btn" id="checkout-button" onclick="showCheckout()">  
+<i class="fa-solid fa-bag-shopping"></i>  
+<span data-translate="checkout">إتمام الطلب</span>  
+</button>  
+</div>  
+</div>  
+</section>  
+<section class="section checkout-section" id="checkout-page">  
+<div class="container">  
+<div class="products-header">  
+<h2 data-translate="checkoutTitle">إتمام الطلب</h2>  
+<button class="back-btn" onclick="showCart()">  
+<i class="fa-solid fa-arrow-right"></i>  
+<span data-translate="back">رجوع</span>  
+</button>  
+</div>  
+<div class="checkout-box">  
+<div class="form-group">  
+<label for="customer-name" data-translate="name">الاسم</label>  
+<input id="customer-name" type="text" data-placeholder="namePlaceholder" placeholder="اكتب اسمك">  
+</div>  
+<div class="form-group">  
+<label for="customer-phone" data-translate="phone">رقم الهاتف</label>  
+<input id="customer-phone" type="tel" data-placeholder="phonePlaceholder" placeholder="اكتب رقم الهاتف">  
+</div>  
+<div class="form-group">  
+<label for="customer-address" data-translate="address">العنوان</label>  
+<textarea id="customer-address" data-placeholder="addressPlaceholder" placeholder="اكتب العنوان بالتفصيل"></textarea>  
+</div>  
+<div class="payment-title" data-translate="paymentTitle">طريقة الدفع</div>  
+<div class="payment-options">  
+<label class="payment-option">  
+<input type="radio" name="payment-method" value="InstaPay" checked>  
+<img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/InstaPay_Logo.png" alt="InstaPay">  
+<span id="payment-insta-text">InstaPay (انستا باي)</span>  
+</label>  
+<label class="payment-option">  
+<input type="radio" name="payment-method" value="Cash on Delivery">  
+<i class="fa-solid fa-money-bill-wave"></i>  
+<span id="payment-cash-text">الدفع نقدًا عند الاستلام</span>  
+</label>  
+</div>  
+<button class="checkout-btn" onclick="submitOrder()">  
+<i class="fa-solid fa-bag-shopping"></i>  
+<span data-translate="sendOrder">إتمام الطلب</span>  
+</button>  
+</div>  
+</div>  
+</section>  
+<div id="product-modal" onclick="closeProductModal(event)">  
+<div class="modal-card" id="modal-card">  
+<button class="modal-close" onclick="closeProductModal()" aria-label="Close">  
+<i class="fa-solid fa-xmark"></i>  
+</button>  
+<div class="modal-image-wrap" id="modal-image-wrap"></div>  
+<div class="modal-name" id="modal-name"></div>  
+<div class="modal-price" id="modal-price"></div>  
+<button class="add-cart-btn" id="modal-add-btn" onclick="addFromModal(this)"></button>  
+</div>  
+</div>  
+<footer id="footer">  
+<img class="footer-logo" src="https://i.postimg.cc/Vvv9H1mc/IMG-1048.png" alt="BM cosmetics">  
+<div class="footer-name">BM cosmetics 🎀</div>  
+<div class="footer-text" data-translate="footerText">جمالك يستاهل الأفضل 💗</div>  
+<div class="social-links">  
+<a class="social-btn whatsapp-btn" href="https://wa.me/201099872665" target="_blank" aria-label="WhatsApp">  
+<i class="fa-brands fa-whatsapp"></i>  
+</a>  
+<a class="social-btn instagram-btn" href="https://www.instagram.com/bm_cosmetics_0?stkn=aDh3NTlxeDV0OTNw" target="_blank" aria-label="Instagram">  
+<img src="https://i.postimg.cc/3wgd7qnQ/IMG-1058.png" alt="Instagram">  
+</a>  
+</div>  
+<div class="copyright">© BM cosmetics - AKR</div>  
+</footer>  
+<script>  
+const koreanRaw = [  
+["Arencia Vitamin C Booster Shot 30ml","Hk1sgjn6/8f7fc898-5120-45ed-a68c-70b677351b64.jpg",1200,899],  
+["Arencia Eraser Shot Glycolic Acid Booster 30ml","XJqn8C11/2694f912-b0e0-4119-80be-8d99d76cfeb4.jpg",1200,899],  
+["Arencia PDRN Booster Shot 30ml","NGyHG9GG/ac3cfee1-28a0-4c9a-a5b8-3c5841458ca2.jpg",1200,899],  
+["Arencia TXA Booster Shot 30ml","7Y0J7F24/6bb737d5-5395-455a-bb59-de664ce07666.jpg",1200,899],  
+["Arencia NAD+ Booster Shot 30ml","KYv164pC/c0a2fb13-4ce4-468f-a6a6-10c08aadf715.jpg",1200,899],  
+["Arencia Pore Melt Mochi Cleansing Oil 200ml","02Rb8VBs/823d9175-ad2b-4ed6-bbb7-a8f01d0b371a.jpg",1300,999],  
+["Arencia Fresh Green Rice Mochi Cleanser – 120g","bYbwFQNQ/cc7cc128-22b0-41d6-93bb-d4019e329745.jpg",1400,1150],  
+["Arencia Fresh Blue Hyssop Rice Mochi Cleanser – 120g","qvBBRScw/af205bc8-e021-48ec-8c4d-5b0c34254c58.jpg",1400,1150],  
+["Arencia Fresh Rosehip Rice Mochi Cleanser 120g","PJkTkRr8/6d5e7f67-647d-4e38-a231-3e031f5db9c7.jpg",1400,1150],  
+["Arencia Eraser Soothing Cream – 50ml","x1FQdC1v/7e4d8905-9d47-41d9-89e8-5a22a10e14c8.jpg",1350,1100],  
+["Medicube Deep Vita C Patch (1 Pouch / 6 Patches)","gcKgpm8p/ae7562ec-9df6-4942-ba86-c4470aa03f29.jpg",900,745],  
+["Medicube Kojic Acid Turmeric Pad – 70 Pads","QdvbmtGH/9785527c-381d-4c87-8b79-ecbda6ee54eb.jpg",1500,1200],  
+["Medicube One Day Exosome Shot 7500 – 30ml","G2Cj05p8/ef26ec3f-bab0-4c67-854e-b3728b5037af.jpg",1250,1050],  
+["Medicube EGF NAD Firming Gel Mask","SQVf5VFv/2754dcb8-01e1-4f6b-affd-1a8530dd3420.jpg",350,270],  
+["Medicube Kojic Acid Turmeric Brightening Gel Mask","Z5vPWSBt/92c1e0c2-f245-4aa9-beb6-b8357cde2df9.jpg",300,220],  
+["Medicube Deep Peptide Radiance Mask","qRwyPBYN/64cadde1-7366-4d2f-8618-66428028f559.jpg",320,260],  
+["Medicube Fresh That Lasts Deodorant Vanilla & Pistachio – 83g","8cCMNQQH/a6327ef8-8051-4256-9265-230ab61bcd00.jpg",1600,1350],  
+["Medicube Glow Vanilla Hair & Body Fragrance Mist – 250ml","6QLvZ59T/3aad2f12-2698-4ed7-975e-5d8e41e35148.jpg",1800,1520],  
+["Medicube TXA Niacinamide Capsule Cream 5% 55g","QMsBjGcb/45675d51-67b7-4bf7-917a-86153bf6207c.jpg",1500,1199],  
+["Medicube Zero Pore One Day Serum 30ml","RhjF8jMP/efcc4c68-c4cb-43a4-a228-a1634fe664f3.jpg",1500,1199],  
+["Medicube Zero Pore Blackhead Mud Mask 100g","mkFZQ8QR/0249ebad-1f1e-4c88-ad2d-41535791ea9e.jpg",1200,950],  
+["Medicube PDRN Pink One Day Serum – 10 Ampoules","HWJbZmzt/36248630-bd2a-4485-a692-9b7222e0dbd8.jpg",1250,1050],  
+["Medicube PDRN Pink Vita Coating Mask – 1 Sheet","L6LLSVrh/3444e851-5c02-475b-8b8d-1b14b503cbb2.jpg",250,180],  
+["Medicube PDRN Lip Sleeping Mask – 10g","Jh4kbCt0/4fdb7e57-284c-458e-8a19-943c5097d7ef.jpg",950,750],  
+["Medicube Zero Pore Pad – 70 Pads","qBCCcLBX/b5f7d659-bcce-469d-9bed-f87f0d08bfc7.jpg",1500,1250],  
+["Medicube Collagen Jelly Cream –110 ml","kg76mPQx/f7962582-28d0-4904-a1a4-edea8955cbcc.jpg",1600,1300],  
+["Medicube PDRN Pink Collagen Capsule Cream – 55g","HnGnvqWM/b04ec7cf-c27a-4795-b22c-3dfb513003df.jpg",1400,1150],  
+["Medicube Super Cica Deep Cleansing Balm – 100ml","5290rqJh/4d4debeb-88b3-40a0-b585-1c61946da8ad.jpg",1400,1150],  
+["Medicube Deep Vita C Ampoule 14.5% – 10g × 3","76kVzYjh/443e06e7-1838-4bc7-bf14-65e9989ea928.jpg",1390,1200],  
+["Medicube Deep Vita A Retinol Serum 30ml","vHNtzvpm/2659cae8-171d-4667-9be7-790b9ed490ba.jpg",1450,1180],  
+["Medicube Deep Vita C Capsule Serum 30ml","0QPYQXJd/35a94e9d-1d4f-4d6d-b32c-19cc29c2e682.jpg",1300,1100],  
+["Medicube Kojic Acid Turmeric Niacinamide Serum 30ml","tJfnhB7N/ab55f431-455d-481d-8626-d0f13f9ca279.jpg",1400,1100],  
+["Medicube PDRN Pink Peptide Serum 30ml","XY9BCcW8/b43ba28d-d7fa-44b0-8745-580d76ecbc85.jpg",1400,1100],  
+["Medicube TXA Niacinamide 15 Serum 30ml","cCKr4fTB/f6da9d3b-0def-4e6c-bd04-9606122d63c8.jpg",1400,1100],  
+["Medicube Red Acne Body Peeling Shot 110g","MTHGd1C3/45f9d0e0-49a2-434e-a0e6-353e01222b38.jpg",1350,1150],  
+["Medicube Collagen Glow Booster Serum 15ml","dQ720C7c/e7fea80d-b6d3-4c69-90b6-090e8b150b20.jpg",1300,1050],  
+["Medicube PDRN Pink Peptide Eye Cream 30ml","3xZpqCqW/7edb6903-a743-4c88-bd57-4bd3bbada360.jpg",1200,899],  
+["Medicube PDRN Pink Caffeine Night Wrapping Mask 75ml","G24yH0m4/e6d1351b-cf7e-4438-9070-25c57fa215fe.jpg",1250,1100],  
+["Medicube Collagen Night Wrapping Mask 75ml","G3sDR1Np/d564aae0-082b-4af0-854c-927b557fd51a.jpg",1250,999],  
+["AXIS-Y Spot The Difference Blemish Treatment","vmN1RPt1/eb63c8ff-0ece-4180-8b1b-490f2d1a0d1a.jpg",1000,750],  
+["AXIS-Y Dark Spot Correcting Glow Toner – 125ml","RZPhfP86/3512d875-ec8f-45c8-93e2-f96a62860385.jpg",1500,1200],  
+["AXIS-Y Mask Now Glow Later Duo Set","C5HLKJkr/cbe63121-bdbb-40e1-a192-3545276334c9.jpg",1250,899],  
+["AXIS-Y Triple PDRN Gel Toner 270ml","JnjRTK6L/10119b7d-3cb4-4deb-948f-361da478e475.jpg",1350,1070],  
+["AXIS-Y Dark Spot Correcting Glow Serum 50ml","7hVw4hy8/6aa2bbc4-c932-4d41-badd-f7f4621b1188.jpg",1000,799],  
+["AXIS-Y TXA 2.5% Intensive Brightening Cream 50ml","VLfzRqXZ/8d35dc03-9717-4964-8ad1-e4921256f9c0.jpg",1300,950],  
+["AXIS-Y Vegan Collagen Eye Serum 10ml","TYtfHK9K/d258177c-f5e0-40a5-9fc8-9cd8470a7072.jpg",1200,890],  
+["Celimax Retinal Shot Tightening Booster – 15ml","FKLvRDQr/f7850d48-829c-4551-8d40-ed5514dfa553.jpg",920,670],  
+["Dr. Althea 345 Relief Cream – 50ml","XqV6sWB5/a799779d-e299-4fc3-bc57-7a6df64db886.jpg",1400,1100],  
+["Dr. Althea Aqua Marine Jelly Mist (100 ml)","m2pWy0L9/11ee419b-30ce-47d9-ad70-4e16ac1539f6.jpg",1300,1050],  
+["Dr. Althea Vitamin C Boosting Serum 30ml","cCD2TnSL/98558110-1904-47d7-9daa-1f25f294969a.jpg",1300,999],  
+["Dr. Althea PDRN Reju 5000 Cream 20g","rp6bhTvk/edf0120e-b33c-4b00-a5bc-78d6baf1facb.jpg",1200,925],  
+["Dr. Althea Aqua Marine Watery Cream 50ml","sXmNDh1S/984deda0-09d0-43fa-9dd9-4c58933f9a74.jpg",1300,999],  
+["Dr. Althea Gentle Vitamin C Serum – 30ml","ZK2DRZYB/aff40c9f-e1d4-4260-909c-73e7fba4a075.jpg",1300,999],  
+["Dr. Althea Aqua Marine Deep Serum – 30ml","BnF7PyXq/2c31ecca-5763-4cfd-bd55-36f9e89923f4.jpg",1300,999],  
+["Dr. Althea 345 Relief Cream Mist – 100ml","WztXNYQm/18b3c205-7420-4cf9-a43f-d379a6cfe4df.jpg",1400,1150],  
+["Dr. Althea 345 Relief Cream Mist – 60ml","6qSzyLKK/db7c95ec-707c-4730-ae82-0f92f611e509.jpg",1020,880],  
+["Anua Heartleaf Quercetinol Pore Deep Cleansing Foam 150ml","k5qrJ9wh/3ef84ebb-79ab-48c4-ae18-793b8dd74f76.jpg",1450,1150],  
+["Anua PDRN Hyaluronic Acid Hydrating Capsule Mist (100 ml)","435DnMSH/3e6733d2-3dd7-45fc-b606-7a72fa6d7da9.jpg",1500,1250],  
+["Anua Niacinamide 10% + TXA 4% Serum – 50ml","xCpB3mYd/baaf855c-57b1-4bdb-9568-3b9db96f3fdf.jpg",1700,1400],  
+["Anua Dewy Glow PDRN Hyaluronic Acid Hydrating Capsule Mist 30ml","XJPDC0K2/3687fd5c-c38f-4278-8e8f-ed454cc7d013.jpg",1250,1050],  
+["Anua Golden Firming Collagen Wrapping Mask 80ml","nMbR3YPk/f5b6469d-3f63-4882-80bd-08943b1a8b1c.jpg",1380,1090],  
+["Anua Barrier Reboot Intensive Cream 100ml","SNckkZkp/93fb8804-bdbe-4293-8c54-f193dae4008a.jpg",1700,1399],  
+["Anua Azelaic Acid 10 + Hyaluron Redness Soothing Serum 50ml","Qdsstpdn/c1a5004f-25c6-4ae1-b077-d861edec3371.jpg",1700,1400],  
+["Anua Rice 70 Glow Milky Toner 250ml","Sxr4zJXS/2ca722b3-e31d-474b-b72d-dfb2f6e94299.jpg",1399,1099],  
+["Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 60ml","Gpg1qVx0/330f6d20-778d-4621-b53c-0eeb8c102671.jpg",1500,1120],  
+["Anua Azelaic Acid 10 + Hyaluron Redness Soothing Serum 30ml","x8MDjCrP/0036a775-1562-4fac-a6a4-23fbd19c841a.jpg",1400,1060],  
+["Anua Heartleaf 80 Moisture Soothing Ampoule 30ml","v8VdtP12/c6d0fd7b-8fe7-46f4-95e3-77a19062dd5b.jpg",1250,1070],  
+["Anua PDRN Hyaluronic Acid Capsule 100 Serum 30ml","SxyFqkZ4/34c7d42a-6581-46e9-b278-c2c77a295ddd.jpg",1400,1060],  
+["Anua Niacinamide 10 + TXA 4 Serum 30ml","QMt29SGB/9e2bc280-b020-48d2-be6b-ca1bab10c37a.jpg",1400,1060],  
+["Anua Invisible Glow Finish Sunscreen Stick SPF50+ PA++++ 18g","bvBKQbqf/1df2aed4-8527-455b-bd7a-e3f3aee5c7c8.jpg",1300,1030],  
+["Anua Peach 70 Niacin Serum 30ml","B6PRN6vH/8f740f78-ee0a-44aa-883e-a43971197077.jpg",1400,1060],  
+["Anua Peach 77 Niacin Conditioning Milk 150ml","QCLwz3Bw/5905fc5d-344b-44cc-ba14-569e29e31ef3.jpg",1500,1100],  
+["Anua Rice 70 Intensive Moisturizing Milk 150ml","cCQ2ybwL/58a522b8-3465-449a-b0ba-ccbdddb0d1a2.jpg",1500,1070],  
+["Anua Heartleaf + Succinic Acid Moisture Cleansing Foam 150ml","tCj8t9Qw/40b9b412-5d9a-4e7e-a15a-8d99843c451f.jpg",1450,1150],  
+["Anua Azelaic 10 + Hyaluron Redness Soothing Pad 90 Pads","cLDjSYgM/2952c156-8c96-48f7-acc7-b29a2f2397c1.jpg",1700,1250],  
+["Anua Visibly Firming Collagen Retinol Refining Gua Sha Cream 80ml","C186kQvG/b7c32d9c-b105-4024-90e4-b09f437f2045.jpg",1650,1300],  
+["Anua Serum Minis Discovery Kit (3 × 10ml)","XJ9QpyJp/4dd89c7c-13eb-4dcd-8088-3fa28dbb4d1e.jpg",1500,1200],  
+["Anua PDRN Hyaluron Lip Serum","ZqdLMy6D/55cf81fd-1886-4fdc-9d44-709a67243d31.jpg",1000,750],  
+["Numbuzin No.9 NAD+ Retinol Volumetox Eye Cream 10ml","GmSnXd2x/d114237b-6700-4874-b3d3-42013e735acc.jpg",1000,820],  
+["Numbuzin No.5+ Glutathione Vitamin Concentrated Serum 30ml","rpBXLj5N/ec4f7aaa-a6e1-44ab-8e59-82dcc7e2e8dd.jpg",1300,1050],  
+["Numbuzin No.9 NAD+ Peptides Dewy Sun Essence SPF50+ PA++++ 50ml","x8PWMSh5/8fa73ce0-e973-49ef-b287-438248fcc267.jpg",1100,845],  
+["Numbuzin No.9 NMN Collagen Under Eye Patches","tgQQKD3w/c1bb8995-d0f2-49b0-9569-e63d95848f54.jpg",1300,999],  
+["Numbuzin No.9 NAD+ BIO Lifting-sil Essence 50ml","Qtm2W3R7/9f486536-11d4-4e1e-97d7-a69946e335f9.jpg",1500,1099],  
+["SKIN1004 Madagascar Centella Double Cleansing Duo","02bTrhZZ/b99fc5e5-2ae3-4958-89d8-97dcf3c343ee.jpg",1800,1499],  
+["SKIN1004 Madagascar Centella Retinol 0.2% Ampoule","YCFTzg5R/4a25d3dc-1353-4603-9c10-6924c9e5402c.jpg",1200,975],  
+["SKIN1004 Madagascar Centella Niacinamide 10 Boosting Shot Ampoule","0Qk3v4bb/118abc58-ce67-4b06-bcac-c8f12004c26f.jpg",1200,975],  
+["SKIN1004 Madagascar Centella Soothing Cream 75ml","cJZk7zMx/547a19d3-76bd-4014-8a41-03aeb78237b7.jpg",1150,999],  
+["SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+ PA++++ 50ml","5yZnXKNr/ee9c0a97-395d-47bb-b795-92acd09fe6bd.jpg",1100,850],  
+["SKIN1004 Madagascar Centella Probio-Cica Enrich Cream 50ml","6Q9z4vwM/8521b042-179b-4a8c-9f6a-0f6fafb3c3cd.jpg",1250,1050],  
+["SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++ – 50ml","YjKzr4b8/e9ce3aa9-5cf2-4fea-8e44-00b02892f53b.jpg",1250,885],  
+["SKIN1004 Madagascar Centella Poremizing Fresh Ampoule 100ml","RZTyY90C/6f7a5388-17e1-4b69-9a53-d711af459fd3.jpg",1450,1100],  
+["SKIN1004 Madagascar Centella Ampoule Kit","Px0RD5S9/2cb634d2-f00b-4b03-8434-67bfcbee5557.jpg",1650,1400],  
+["SKIN1004 Madagascar Centella Probio-Cica Bakuchiol Eye Cream 20ml","P5dFYcMf/c4f268b9-de0f-4660-8072-6b08a12e8f9e.jpg",1100,799],  
+["SKIN1004 Madagascar Centella Toning Toner 30ml","Y0cd9ySZ/dfdd511b-ae70-433d-927d-73d4e2d60f0f.jpg",500,399],  
+["SKIN1004 Madagascar Centella Poremizing Quick Clay Stick Mask 27g","MGv5Y8M3/1b5ea98a-9e08-461a-824b-6552435b4ba7.jpg",1150,990],  
+["SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule 100ml","6qLfQWgC/1d30f9ea-97bc-4c8d-9beb-fbb7c77b6c13.jpg",1300,1049],  
+["SKIN1004 Madagascar Centella Light Cleansing Oil 200ml","G3qBbTS3/fcbcdc57-f93f-4aaa-bdaa-b953b0ecbccb.jpg",1300,999],  
+["SKIN1004 Madagascar Centella Even Tone Kit","sgZ1P6fc/b8dcf3b1-cbab-4090-b449-2eaed08fb831.jpg",1600,1249],  
+["SKIN1004 Madagascar Centella Tea-Trica Trial Kit","qRpRTps9/f0978379-1276-4199-9faa-48fc7e2b7f54.jpg",1600,1249],  
+["SKIN1004 Madagascar Centella Travel Kit","BQRnvT5H/f3ee7617-cbeb-4f66-9041-59b93f60bb3e.jpg",1600,1249],  
+["SKIN1004 Madagascar Centella Hyalu-Cica Travel Kit","8Cmpwx2k/73233da7-1602-460f-8c35-e183313dd4b3.jpg",1600,1249],  
+["SKIN1004 Madagascar Centella Poremizing Travel Kit","8cjTpcj0/3c7da7c1-8da1-4e6a-9648-d94c72957486.jpg",1600,1249],  
+["SKIN1004 Madagascar Centella Tone Brightening Cleansing Gel Foam 125ml","t409bXyZ/1f6b84a8-9c0c-4512-ac6b-6460826dadc3.jpg",1050,899],  
+["SKIN1004 Madagascar Centella Tea-Trica BHA Foam 125ml","vmbM134H/4c2d37ad-9834-44c4-89ce-e70b01b1b21f.jpg",1050,899],  
+["SKIN1004 Madagascar Centella Poremizing Deep Cleansing Foam 125ml","3w85rNq7/078ef954-7c6a-409a-af5e-cd81c167c8b3.jpg",1050,899],  
+["SKIN1004 Madagascar Centella Ampoule Foam 125ml","85YqbHzR/c29b6f10-eecf-4a8c-8e35-46f0f4d75b67.jpg",1050,899],  
+["Beauty of Joseon Dynasty Cream (50 ml)","vmgkXKct/3616167f-0c83-4da3-9afb-6203ffc2d65c.jpg",1350,1050],  
+["Beauty of Joseon Glow Deep Serum Rice + Alpha-Arbutin 30ml","2ymtk82Y/3b529e61-cc7f-4eaa-9af0-d1f943b1cb09.jpg",1100,895],  
+["Beauty of Joseon Glow Serum : Propolis + Niacinamide (30 ml)","3JtqhhGB/3fd9ac58-4385-4fe4-86b9-1ff349e1dbed.jpg",1100,895],  
+["Beauty of Joseon Ginseng Moist Sun Serum SPF50+ PA++++","fyB8M7VQ/80465871-f91f-4429-8969-d0c3d8c40061.jpg",1200,950],  
+["Beauty of Joseon Relief Sun Rice + Probiotics SPF50+ PA++++","VkSKcC12/eecd9125-5585-44ed-b855-6f7e1db3cc2c.jpg",1100,900],  
+["Beauty of Joseon Relief Sun Rice + B5 SPF50+ PA++++","Qtqbqgk9/2c1a892f-f1f4-4521-a179-48d4ff20d32d.jpg",1080,885],  
+["Beauty of Joseon Light On Serum – Centella + Vita C","yYxPFZJn/4d13e4e2-495f-4545-826b-d79ba32a4d9c.jpg",1300,975],  
+["Beauty of Joseon Revive Eye Serum – Ginseng + Retinal","nL4YHKWy/ec973080-b16c-4abe-afa1-8bf7fa4782fc.jpg",1300,975],  
+["Eqqualberry Purple Rice Pore Purifying Pack Cleanser 130g","CKskyhBb/0e362c82-e899-48c8-804e-d69aa9e52675.jpg",1300,1099],  
+["Eqqualberry Lush Blush NAD+ Peptide Boosting Cream 50ml","GtVsP9NF/7ce94339-de5f-4a4a-a40f-f2f5426b3ad2.jpg",1450,1200],  
+["Eqqualberry Deep Cera Bakuchiol Plumping Serum 30ml","Ls2g3cCK/1a79c41c-0b2e-4565-b4ad-821030429171.jpg",1300,1099],  
+["Eqqualberry Glow Filter Vitamin Illuminating Serum 30ml","pXj9bW41/e81738c0-b9c9-41e3-b52a-7f7a6cfd5146.jpg",1300,1099],  
+["Eqqualberry Lush Blush NAD+ Peptide Boosting Serum 30ml","mrmkNt11/40604168-a19a-4a33-9a41-417d5d911165.jpg",1300,1099],  
+["Eqqualberry Green Aid Aloe PDRN Calming Serum 30ml","v8cXpKyj/d5442fc4-2bcd-4991-9f85-bba1426b52eb.jpg",1300,1099],  
+["Eqqualberry Blue Blow Hyaltoin Flooding Serum 30ml","KYGDQqQ5/850cdc38-ae32-4cc7-b298-629a5ff0047c.jpg",1300,1099],  
+["COSRX Hyaluronic Acid Intensive Cream – 100g","cCw3dwXg/73e2697e-3447-46f1-9d3b-ebe7f0461725.jpg",1250,999],  
+["COSRX The 6 Peptide Skin Booster Serum 150ml","3xnvrKCc/64fd6d25-be9d-4b49-8974-8d3e545638c3.jpg",1400,1050],  
+["COSRX The Niacinamide 15 Serum – 20ml","RFn6Twrj/0dd7828e-3a15-4ea4-9819-114aea81dfae.jpg",1300,999],  
+["COSRX All About Snail Kit 4-Step","Y2YLGNzL/d3573abb-026c-4d8c-981c-6e20a9dd5757.jpg",1400,999],  
+["COSRX The Peptide Collagen Hydrogel Eye Patch – 60 Patches","CL23389f/29026da9-de86-4a7d-a842-10dfb3d71008.jpg",1500,1099],  
+["COSRX Low pH Good Morning Gel Cleanser 150ml","L6J73Xhh/75698693-5109-4a3d-9ed2-82eb6a8cc81c.jpg",1250,899],  
+["COSRX Salicylic Acid Daily Gentle Cleanser 150ml","g0HB2LB2/8d38f1c3-2089-4b87-bf9e-fd4bd2e32311.jpg",1200,799],  
+["COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap 100ml","7PWthkXg/1669a15d-10ba-491e-b976-aae00bf1a0da.jpg",1250,999],  
+["COSRX Advanced Snail 92 All In One Cream 100g","SQnFDVvb/e6d45021-febe-44fd-a67a-e2a76c5aa602.jpg",1320,899],  
+["COSRX Advanced Snail 96 Mucin Power Essence 100ml","QM8v5q7M/1f6394a4-fd53-43d2-88d8-b20b191f4819.jpg",1300,899],  
+["Seapuri Scalpy Hair Serum (20 ml)","X7K28C4q/0fef0277-8980-45dc-b965-e946e567106a.jpg",1299,999],  
+["Embryolisse Lait-Crème Concentré Multi-Function Moisturizer – 75ml","j2HhZpVc/20c76bb1-87aa-4ffa-94d9-0680145f0874.jpg",1500,1249],  
+["TIRTIR Ceramic Milk Ampoule 40ml","59BqdWGm/3de950d3-5034-47c5-9402-6360e6c5fd6f.jpg",1695,1495],  
+["Mary & May Tranexamic Acid + Glutathione Eye Cream Special Set 30g + 24g","DwM1dvJs/894c50a3-2ec2-4e96-9a05-3e0fd801aac9.jpg",1050,850],  
+["Mary & May Tranexamic Acid + Glutathione Eye Cream Special Set 30g + 24g","SRdMXkby/9ebda79d-9cad-4bc5-902b-21e0ceebb0bd.jpg",1000,799],  
+["MARY & MAY Spicule Collagen PDRN Cream 1000 Shot 50ml","4xqhHWq9/3124872f-2485-4169-a83f-84a640f14ab8.jpg",1000,799],  
+["TOCOBO Cotton Soft Sun Stick SPF50+ PA++++ 19g","Znb9z2Bg/0576b022-b2d9-484c-bc3b-135ca96d83af.jpg",949,749],  
+["Isntree Hyaluronic Acid Watery Sun Gel SPF50+ PA++++ 50ml","pXd9GNtV/af8e0575-a1f8-4502-ae9f-599a0e1cfcb9.jpg",1150,899],  
+["Farm Stay Oil-Free UV Defence Sun Cream SPF50+ PA++++ 70ml","6pkypy4y/9f072e49-30a5-4b1a-8268-91703875da38.jpg",550,425],  
+["Epii Double Up Cream – NAD+ • NMN & TXA 50ml","sXyx5qcr/418a45d2-e545-4f65-bfc9-c467d94dfac4.jpg",1500,1235],  
+["Epii Double Up Cream – Ectoin & Panthenol 50ml","W3n388Wm/9b1ba74c-6ae3-4e4e-803d-a96f3ebc03c6.jpg",1500,1235],  
+["Purito Mighty Bamboo Panthenol Cream 100ml","sxH2dXRh/521cad8f-c5e1-4fe0-8607-19ee138661ab.jpg",1250,1050],  
+["I'm From Rice Toner 150ml","nc5L3C2f/bc75af6d-bbef-4883-b312-b5a58f9f841b.jpg",1250,1050],  
+["Isntree Onion Newpair Booster Shot 2000 – 50ml","Lsk64vpM/725f3073-4539-43a7-9293-8a90f5abaa94.jpg",1350,1150],  
+["Anua PDRN Hyaluronic Acid 100 Moisturizing Cream Set (60 ml + 30 ml)","XNmyTxcY/1bcc61d7-89b6-4b7e-a52b-7a0cf59bcf07.jpg",1400,1060]  
+];  
+const kidsRaw = [  
+["Blankie 3 in 1 Shampoo + Conditioner + Body Wash","Zqb9rQZ1/c4d76692-b4fb-4ac2-897b-bd28dde931f1.jpg",200,100],  
+["Blankie Kids Hair Cream Anti-Frizz","vBDcK64x/96e53724-f5d7-4a3d-9c94-7747c757773d.jpg",210,110],  
+["Blankie Kids Moisturizing Sunscreen SPF 50+","3R6dQJG9/6bf4ed99-9b04-4317-b8f9-cdff103cf95a.jpg",215,105],  
+["Blankie Diaper Rash Cream","KjM4GSrT/91ee1c98-6a85-478c-9f4a-e47db64fe566.jpg",180,65],  
+["Blankie Daily Moisturizer Face & Body","tRwrRKGc/7c84795f-4c5a-45bb-83db-6a44565afb7e.jpg",120,60],  
+["Blankie Daily Moisturizer Face & Body","tRwrRKGc/7c84795f-4c5a-45bb-83db-6a44565afb7e.jpg",240,120],  
+["Blankie Roll-On Deodorant Cotton Candy 6+","T3qQ9h5g/d6fe05fc-283b-462b-ae8e-04dc4f1b3c82.jpg",180,100],  
+["Blankie Baby Oil – Body & Hair","XJX848HB/dfed301b-a1f6-4772-b454-726529d033a3.jpg",150,70],  
+["Penduline Curly Kids Conditioner","zvgFRf1B/69c1d5f3-6486-4608-960f-1ceda8a225e9.jpg",240,205],  
+["Penduline Moringa Kids Conditioner","jdyhxCXC/6f5e7f5a-7a75-4f81-9a00-c5bcb87afe28.jpg",230,200],  
+["Penduline Baby Body Lotion Blue Chamomile","4xZQmZ2X/abcecee0-9e6b-4f6b-b780-388849495237.jpg",225,195],  
+["Penduline Baby Cologne – Baby Powder","HLk09zCz/21e1d752-9214-4ecc-b8f1-11ad1a34ccb0.jpg",130,110],  
+["Penduline Kids Perfume – Alcohol Free","d178z037/da0eb9e1-c74c-4160-a266-2145cf345f80.jpg",160,140],  
+["Penduline Curly Hair Gel for Kids","x8ML1FLh/1c4e8f65-c3b5-4366-b40a-176a4c845b44.jpg",180,150],  
+["Penduline Kids Hair Cream – Shea Butter","8Pgh0NS6/b917cb29-2770-4383-a3be-dae479ee4d23.jpg",230,199],  
+["Penduline Kids Moisturizing Cream","3JjgMVrM/3d8cb411-601d-4ffb-9aa7-30c48a5240cb.jpg",150,130],  
+["Super Kids 3-in-1 Shampoo, Conditioner & Bath Gel (Strawberry Milkshake - 500 ml)","fRBmyd0v/8a2a5386-1cdc-4fbc-82f9-82162e179ac7.jpg",220,200],  
+["Super Kids Curly Hair Gel (250 ml)","bYknbW2K/e790aba8-b3f9-4cfc-9bd6-886bb59afea7.jpg",160,140],  
+["Super Kids Leave-In Conditioner Curls Activator (250 ml)","135VkzY6/61cc5e0b-1761-4f80-a076-bc6f87a75148.jpg",170,150],  
+["Super Kids Hair Cream Easy Styling (200 ml)","0NzMNBst/e448fae9-5092-4509-9e53-796f7ed48098.jpg",150,130],  
+["Super Kids Roll On Deodorant For Kids Lollipop Scent (40 ml)","s2bBG4fv/9ea35798-b171-4518-82d2-1ac30f9ba351.jpg",120,99],  
+["Super Kids 95% Water Wipes (72 Wipes)","5ySjGcBC/8e29fa5f-f67a-4502-b658-9347ba8beae4.jpg",110,90],  
+["Johnson's Baby Shampoo (200 ml)","vHXctsHw/3b4bb8b5-b35a-4c09-8e51-3d9ef969dfd8.jpg",160,120],  
+["Johnson's No More Tangles Kids Shampoo (200 ml)","mr1k413x/12406d9c-ea70-4883-a8a6-dd8638e474d0.jpg",180,130],  
+["Johnson's Sleep Time Bath (300 ml)","3Rgw4Mbf/f547955e-ab30-477b-99c2-67156d8296d7.jpg",200,140],  
+["Moist-1 Baby Cream 15% Zinc Oxide (150 g)","pdXPqhrn/bfa3ea20-2888-4f2c-9299-99ce498747e1.jpg",180,150],  
+["Happiness Baby Dreams Soothing Cream for Diapers Area","3wRH2sf4/05840a38-ae1e-4fac-91c6-a589bf728d54.jpg",180,125],  
+["Happiness Baby Dreams Hair Cream 150 ml","9QX3h3hw/ba91fbeb-0755-4b4c-afd0-e1023f921765.jpg",210,185],  
+["Happiness Baby Dreams Hair Oil","T3tz2k2M/cd51443e-2645-4c19-8f79-a2a3d47e0084.jpg",235,190],  
+["Happiness Baby Dreams Hair Cream (300 gm)","RFHyR4c2/a4aa76bf-7eba-4a1b-b98e-d53aab9e60c7.jpg",290,250],  
+["Happiness Baby Dreams Shampoo 2 in 1 (400 ML)","yxhGMjrH/c02fbf90-bc29-40dd-bd08-58253248d6b0.jpg",240,210]  
+];  
+const hairRaw = [  
+["ACM Novophane Reactional Anti-Hair Loss Lotion 100ml","Zn8HmrLR/57d59f9b-192b-4cf0-ba65-5c3e49ea5063.jpg",1000,850],  
+["Tettello Ultra Restorative Hair Serum (120 ml)","Dy7ds4g8/f14e2225-f962-4ece-a3d0-438c9d79ed61.jpg",350,300],  
+["HairDaily Hair Mist Set – 5×40ml","7hw7gjgG/41f38fd8-8b1a-439e-beac-58c350b56e60.jpg",500,380],  
+["Twist & Go Whipped Cream Leave-In 250ml","qMd9ygf6/93cc9923-52e7-4265-810f-c2d3aa4447d1.jpg",200,160],  
+["Twist & Go Hair Volumizing Shampoo 250g","7LcR6ZM6/c01fc793-429f-4521-82fa-9ac009b42824.jpg",200,150],  
+["Twist & Go Hair Lotion Anti Hair Fall 250ml","KYd9bsFd/bc84b622-15c9-41bb-95c5-95c941b7adb6.jpg",350,300],  
+["Twist & Go Hair Mask 250g","zDwdmjMN/c3801299-7399-415c-b08e-b7f5dc38d2cd.jpg",200,150],  
+["Twist & Go Hair Serum Dry Touch 60ml","rsqNyBb6/bb2eef7e-f155-4a20-ae11-1d87a6700d92.jpg",200,160],  
+["Clary Hair Fall Control Shampoo 300ml","DwRQ4JDQ/a9bd8fad-b5d4-4243-887d-1a820defb340.jpg",350,299],  
+["Clary Hair Fall Control Conditioner 300ml","D0CLv8Ld/4c3b4e40-c73d-42de-928d-f4812a105e09.jpg",345,295],  
+["Clary Hair Fall Control Serum 100ml","DzqGWC14/d1a95151-9d03-421b-a312-c3d00b8f0ace.jpg",450,350],  
+["Clary Hair Fall Control Spray 200ml","YS39KT1v/169aa1bd-d352-4eb6-9bad-e24c7a0921af.jpg",450,399],  
+["Clary Fresh Scalp Scrub Procapil & Matcha 300ml","13yXC9qT/15252047-c2bd-4fca-ab6f-652b15878114.jpg",390,330],  
+["Clary Leave In Cream Procapil & Aquaxyl 300gm","HkWW06GW/5fe4ec8d-520a-4e75-a53f-976108a0a01b.jpg",340,290],  
+["Clary Hair Mask with Procapil 300ml","C51TBQnh/34babede-9891-4e6e-a489-b2ae8ae28e22.jpg",380,325],  
+["Africana Rich Conditioning Shampoo Argan Oil & Biotin 225ml","j5xBmFXq/b629bfa7-381f-4de8-abda-a8d0ffea68da.jpg",160,135],  
+["Africana Nourishing Leave In Conditioner Shea Butter & Argan Oil 225ml","N0Yn2zZ6/76726b5f-df65-45b7-8cfc-82f52b107746.jpg",175,155],  
+["Africana Argan Oil Hair Mask with Shea Butter & Biotin 225ml","0y1Wh4kB/7654dd5a-d6e1-44a1-97db-67bc7475ca55.jpg",185,160],  
+["Africana Hair Wax Styling 24h Strong Hold","dDP6P7Yr/a13870b1-580e-453a-9714-8e5af69fa2a4.jpg",235,199],  
+["Hydrolav PH Balancing Hair Serum – 100ml","4x1DPG68/40bb6d87-c312-4cab-9d33-bee42c25fd54.jpg",330,299],  
+["Hydrolav PH Balancing Shampoo – 200ml","k4LzGgCQ/9ecfc90d-be18-48f1-ad15-ed0414881bd9.jpg",240,199],  
+["Hydrolav PH Balancing Conditioner – 200ml","sDYqfzNz/784b4890-2f2f-4e90-a38c-3ca35e5cda5d.jpg",240,199],  
+["Dermactive Tricho-Act Anti-Hair Loss Lotion 120ml","VN6VFCLB/aec5b242-920f-482d-9b9c-77fe0c1e989c.jpg",280,250],  
+["Dermactive Tricho-Act Anti-Dandruff DS Shampoo 200ml","26NnSsJD/7a775ae0-69ac-4299-ad16-5913e812600a.jpg",245,190],  
+["Seropipe Hair Dropper – 7 Vials × 10ml","8zq6y8Tw/11abfdee-3a3c-433e-8224-d50d5946c4f5.jpg",550,445],  
+["Seropipe Hair Spray 200ml","LXVg6nL7/b3d00bc2-b0a5-4e51-9965-fa4974062168.jpg",325,290],  
+["Seropipe Leave-In Conditioner SPF 30+ 200ml","sDxGsfXh/292a71df-231c-4600-b934-e44428bd6a7b.jpg",345,310],  
+["LEAVES Nourishing Hair Cream Anti Hair Loss 200ml","ZnpbKQ1D/f8f422f4-86e4-4f41-8b99-fbb732a10ffb.jpg",365,315],  
+["LEAVES Anti Hair Loss Shampoo & Conditioner 200ml","W12NTXSH/ffe213fd-645a-4a47-a1d4-337a702a007c.jpg",265,245],  
+["LEAVES Repairing Hair Mask Anti Hair Loss 200ml","76TDmcYM/1f328ad8-d4af-40a3-9e5e-bdea49780f92.jpg",280,250],  
+["LEAVES Anti Hair Loss Hair Spray 100ml","GmhCZ9mT/335da782-53b0-442c-b7db-1a659e9403f4.jpg",460,425],  
+["StrongVille Hair Care Nourishing Cream 120g","MGgJMDbR/232529c2-8ae5-470c-9645-aed4de0166b8.jpg",190,165],  
+["StrongVille Hair Shampoo Bond Builder 220ml","nrYyWt8L/640c6ac8-041d-471c-9877-fe90d61ec199.jpg",190,160],  
+["Eva Advanced Care Clinic Nourishing Hair Mask","pTK49tL8/8255e4aa-589d-4f04-8c38-259fc6438b2d.jpg",200,170],  
+["Eva Advanced Care Clinic Moisture Quenching Hair Mask","c1MP0ZjQ/437ef288-77e7-4605-9e3a-50444f278ade.jpg",200,170],  
+["Capixy Intense Hair Spray 125ml","K84WPTY3/70d72039-4fec-49d3-a20b-1e77153fd49b.jpg",600,470],  
+["Capixy Lashes Treatment Serum – 10ml","XqVHpGhb/5ad4432d-da18-445a-a4ad-b1c5ab5624b4.jpg",550,425],  
+["Capixy Ultimate Treatment Hair Mask – 250ml","dVz5GSXS/b5656b4e-52c8-4abf-a069-1a6e03291150.jpg",450,300],  
+["Capixy Anti-Hair Loss Vials – 70ml","BbYgbhHz/248925a4-16d3-40b0-b031-40490cfc172b.jpg",1000,750],  
+["Capixy Hair Fertilizer Serum – Split Ends Repair","8CRmMkL7/635dcbfe-9041-4cc6-815d-2c83df13b8b7.jpg",470,370],  
+["Capixy Hair Fertilizer Shampoo – 250ml","PrCbKQmj/30b9160f-754d-47a0-88b2-7335c50ced3c.jpg",320,215],  
+["Capixy Hair Fertilizer Cream – 120ml","76B7n5h2/4041176c-5a2f-4d16-900f-2300e092ce1c.jpg",340,240],  
+["Capixy Advance Repair Leave-in Mask","1zsqxGNR/1e831479-0e67-486f-8a52-7977314a964e.jpg",450,350],  
+["Capixy Advance Repair Conditioner","PxFp80VJ/c7d0898a-fb15-428a-8111-1d7e6a8f69c2.jpg",350,310],  
+["Capixy Anti-Drandint Serum Spray","K8r151pd/d8273da1-1a26-410e-8b2b-5e2d44148804.jpg",380,350],  
+["Capixy Leave in Heat Protection Spray","xC78dMq6/695f449f-236c-486f-ae44-80baccb319a4.jpg",350,320],  
+["Tettello Plus Hair Growth Accelerator Vials (6 Vials x 10 ML)","v8k3VZKV/ece6a662-ab5e-4f4f-b66c-d2e8faff8af5.jpg",500,380],  
+["Bio Soft Shea Natural Moisturising Deep Conditioner","G2r1rjFH/4c98dfbc-a1f8-4154-b8d9-54aba82488ae.jpg",135,110],  
+["Bio Soft Avocado Natural Moisturising Deep Conditioner / Curly Hair Treatment","rswXRFY4/af43ff3b-578b-46eb-beaf-0e6ec39cd432.jpg",135,110],  
+["Bio Soft Coconut Natural Moisturising Deep Conditioner","sD1CVxh6/b8174096-2b3c-4dd9-a47c-cf643733d5e0.jpg",135,110],  
+["Bio Soft Hyaluronic Acid Hair Treatment","xdvWsbwY/bd9b2f98-1329-4bf5-8c8a-4998bde242bf.jpg",135,110],  
+["Raw African Follicle Booster Oil (100 ml)","J0nv4YG5/bcb0bca7-4502-48d7-bbd4-71104b99c845.jpg",255,220],  
+["Raw African Raw Shea Curl Enhancer Leave-in","4NYqDMCG/1b4bc336-90cf-4a74-bb5a-25983ecd1128.jpg",320,235],  
+["L'Oréal Paris Elvive Fall Resist Aminexil Reinforcing Shampoo 400 ml","ZqxMPzNR/a7b61a07-98fa-4d57-b552-11f5ea29f601.jpg",220,180],  
+["L'Oréal Paris Elvive Hyaluron Moisture 72h Moisture Filling Shampoo 400 ml","qqzDdt53/1b777bb8-b47a-41e2-954f-b4b6098b36a3.jpg",230,190],  
+["L'Oréal Paris Elvive Hyaluron Pure 72h Rehydrating Conditioner 400 ml","ydNvFgBF/a7a81e63-9c8e-48a2-ae60-192e7ab81446.jpg",260,220],  
+["L'Oréal Paris Elvive Hyaluron Pure 72h Purifying Shampoo 400ml","TYnF2bPV/85d333e7-d46f-4217-b847-9c6310f64535.jpg",240,210],  
+["L'Oréal Paris Elvive Extraordinary Oil Nourishing Shampoo 400ml","pdc1cY0p/6844d10a-8f37-47a6-97e1-1ad241951b42.jpg",210,175],  
+["L'Oréal Paris Elvive Extraordinary Oil Jojoba Intense Nourishing Shampoo","wMLfvK9J/970e3046-2046-4622-8213-8238586ee6c9.jpg",210,175],  
+["L'Oréal Paris Elvive Dream Long Straight 72h Straightening Shampoo","8PdXgVyy/7ed4848d-9a24-4939-a03f-1cdc3cdcbb94.jpg",220,180],  
+["L'Oréal Paris Elvive Total Repair 5 Repairing Shampoo","cJzXB1Hd/d3a676bc-a4d2-4b6b-af0f-fdf452671d29.jpg",240,195],  
+["K18 Leave-In Molecular Repair Hair Mask","KYK2XkFw/bc56cad3-43ba-4ba2-a83e-406da5594973.jpg",5000,3900]  
+];  
+const skinRaw = [  
+["Alejon Facial Moisturizing Cream 75gm","c17kVn4T/22963407-356c-4084-8ed4-7a55480d8e1f.jpg",280,240],  
+["Alejon Facial Moisturizer Gel 75gm","c4X9JG3P/908ee28d-dddd-4292-be83-45495efeb3a0.jpg",270,240],  
+["Alejon Oily Skin Gel Cleanser 150gm","qRVQFJfV/e08d7e67-8276-4fd0-b738-0f91f6691222.jpg",245,225],  
+["Alejon Dry Skin Cleanser 150ml","cCdhsFLN/9acb0b73-9ef3-4054-a485-0b75ba3b1586.jpg",260,235],  
+["Alejon Whitening Cleanser 200ml","qMMwSDFz/5c545799-0e69-438a-9bad-fd382b9da1f5.jpg",300,270],  
+["Alejon Oily Skin Cleanser 200ml","0QPDmbR6/c10d4d13-87e6-4a7c-a649-94f3c12de6ce.jpg",300,270],  
+["StarVille Facial Cleanser Gel Tea Tree Oil – 100ml","yxNRQtN1/5959d1f2-36e6-4e1e-af0d-c9550284da6f.jpg",100,85],  
+["StarVille Facial Cleanser Gel Tea Tree Oil – 200ml","jSf7FzR2/d94fe3e4-75a9-4e4a-b0be-ea349c13d0c8.jpg",150,135],  
+["StarVille Facial Cleanser Gel Tea Tree Oil – 400ml","1zcN9snm/e6ef79b7-2a63-4b03-8840-1c5d29069dc3.jpg",225,200],  
+["StarVille Whitening Cleanser with Alpha Arbutin – 100ml","Zn09FNfn/59eef802-7207-4d3a-b8ff-8916192dbc90.jpg",115,99],  
+["StarVille Whitening Cleanser with Alpha Arbutin – 200ml","rwYqxHBh/eef3cdc0-7807-4b11-a9e8-574f0bb67ea4.jpg",180,160],  
+["StarVille Whitening Cleanser – 400ml","sX5yFgv8/38fa01a9-96f7-4ae1-a934-a99e7ab06ef5.jpg",275,250],  
+["StarVille Acne-Prone Skin Soap – 90g","59q1nyhZ/413d8afc-d5ea-456a-830b-18d7b757f3e2.jpg",80,60],  
+["StarVille Whitening Care Soap – 90g","vH0ywjZy/fef2792e-ddbe-433d-8b6c-9ec26b88a668.jpg",80,60],  
+["StarVille Whitening Gel Night Care – 60g","6pSNyvZ0/4e56e02c-6803-4533-9784-83c26ae667a3.jpg",160,135],  
+["StarVille Eye Contour Gel – 30g","k4P3yPfR/34ea1ea1-3a83-4e5f-b283-f01172fef104.jpg",260,230],  
+["StarVille Hyaluronic Acid Serum 3% – 30ml","QCj2RkLX/c5e633da-9fb9-433a-9d71-606e85b2d33c.jpg",320,299],  
+["StarVille Vitamin C Serum 10% – 30ml","Pf4s1cZb/d718b4bf-f7c1-41c0-9cdc-7b496371f6ed.jpg",320,299],  
+["Clearsal Anti-Acne Gel Cleanser – 200ml","y8DM48Gc/467713e2-d077-47e5-b35a-31670fe9efab.jpg",250,199],  
+["MOIST-1 Cream Gel – 100gm","tgP8Jmp1/37fcd467-79cc-4a16-9fb8-1857fbd9b966.jpg",220,195],  
+["MOIST-1 Moisturizing Cream – 100gm","C1stHBZg/e75fc40f-95c8-48cf-9df9-b46a583c7b60.jpg",190,165],  
+["MOIST-1 Milky Cleanser","FzPB8MgS/8f5da7c3-b59a-4585-a5b0-c23e5eb800f4.jpg",250,220],  
+["MOIST-1 Hydrating Foam Cleanser – 150ml","pXT7zdRc/fd2c825b-96ed-459f-9e60-7aa4bc723c2c.jpg",200,185],  
+["MOIST-1 Hyaluronic Acid Serum Face & Neck – 30ml","qv65DZtS/1012a315-097d-43f7-804f-ac937d4fcee0.jpg",250,220],  
+["MOIST-1 Centella Serum Face & Neck – 30ml","ydspd1LZ/a3aee22b-ab6b-4ef9-ac11-ba6e2560e49a.jpg",250,220],  
+["Malinda Mega Offer Gel & Cream Pack (Limited Time Edition)","hvGCLCWs/7470b7c7-5339-4bc7-99cc-cc56de7e730e.jpg",520,445],  
+["Malinda Ultra-Light Revitalizing Moisturizer Cream","mg6Fk8Vy/687f0a4d-ce70-414e-9d05-430bbd6225f7.jpg",300,250],  
+["Malinda Face Cleanser Gel AHA/BHA","0Q76txvT/bb09f76d-35cf-4779-a47a-8da08dc1fa0a.jpg",300,250],  
+["Malinda Gel Cleanser For Sensitive Skin (Liposomal Technology)","rsJDkJKh/b7822672-4497-41ad-a695-90604b0bfa57.jpg",400,310],  
+["Dermaelle Acne-Prone Skin Advanced Cream 60ml","kXT2YTr7/f0a2163a-6994-477d-aa63-c7bc2495c1ef.jpg",300,215],  
+["Dermaelle Cica+ Repair Intensive Cica Cream 60ml","HLyjxHr0/73dbc429-070a-44bf-a591-a03a13da08d0.jpg",300,215],  
+["Dermaelle W+ Brightening Foaming Cleanser 200ml","nrHL0D0D/782f13cb-3bff-4c83-bd3e-ad0b8d10af68.jpg",250,180],  
+["Dermaelle Advanced Niacinamide+ 10% Serum","wTjvND1S/3f4fd587-3bbe-45fb-8508-cee9035ffd7e.jpg",350,280],  
+["Dermaelle Advanced Glycolic Acid+ 10% serum","CLrKsdD8/527917a1-8b44-4e84-b5ee-dcd1abaa60fb.jpg",450,360],  
+["Dermaelle Advanced Hyaluronic Acid+ 2.5% serum","zXyN57bk/49ce7ed1-b1fa-4724-a0af-7412fd7ab420.jpg",300,220],  
+["Dermaelle Advanced Brightening Vitamin C+ 15% Serum","mrsWYGdZ/ba100f21-b93b-463c-b961-870aef213c8b.jpg",450,315],  
+["Dermaelle Hyalu Repair Cica+ Facial Cleanser 200ml","LXydFgmh/98520c72-09a2-432e-810f-de9594035182.jpg",250,160],  
+["Dermaelle Hyalu Cleanser 200ml","JhmSy5ng/0e657005-2a16-48fb-9ed9-b081d9c8ca9b.jpg",250,160],  
+["Skinova Image Mattifying Moisturizer Gel (50 ml)","FRHqpF0F/ff94e01c-30f1-4b8b-b882-6d6d91c5843e.jpg",320,240],  
+["Skinova Image Mattifying Cleanser (Salicylic Acid & Niacinamide)","DZpNMVgV/d3dec960-8403-498a-b94c-a24df0a19733.jpg",240,160],  
+["Skinova Image Salicylic Acid Serum (30 ml)","GtZ5bkVF/4325903c-5df5-4aa4-9e23-dd5cedcc2040.jpg",370,260],  
+["Skinova Image Niacinamide Serum Advance (30 ml)","mZqq3skH/bb5d3e71-1399-48b3-9da0-edba2efce9d5.jpg",370,260],  
+["Skinova Image Hyalo Cica Serum (30 ml)","6pVmN40G/c572519d-cd63-434b-8589-2d80bab4f37e.jpg",370,260],  
+["Skinova Image Vitamin C Plus Serum 15% (30 ml)","5tnKXcD1/6d19b295-9f47-44f6-bb0d-4d7bafee0b3b.jpg",370,260],  
+["Skinova Image Retinol Serum B3 Anti-Wrinkle (30 ml)","MX2dCzfR/31e797d7-385e-417c-93a7-0775997997f9.jpg",370,260],  
+["Nuvera Cream-Gel Sunscreen SPF 50+ – 50ml","28nDV6wM/aecd3245-e4b0-4f66-863f-1e931d3b20c0.jpg",300,199],  
+["Nuvera Sebio-Control Cleanser – 200ml","LXGcsKZM/61e899c1-c7c1-4451-843c-7349ffdb515c.jpg",250,180],  
+["Nuvera Sebio-Control Gel-Cream Moisturizer – 50ml","1RqxjtLW/a374215d-f5db-44cb-9550-4d123520b270.jpg",300,210],  
+["Nuvera Sebio-Control Niacinamide Serum 5% – 30ml","KY9ywPdg/92a22ad1-5c44-4a2e-968b-b1f0295cf979.jpg",300,210],  
+["Dear Facial Wash 200ml","4dqRNJ4x/0792f631-0253-4581-a6ce-b5448398eeec.jpg",200,120],  
+["Dear Hydration Moisturizing Cream Deep Hydration 200gm","1RVZ7NM3/a2baeaa4-878d-4a2b-961b-7b64eb915b4e.jpg",220,135],  
+["Dear Hydration Facial Cleanser 400ml","vHRwJHN8/d2d4195d-071a-4170-912a-5b2b3d6b2890.jpg",350,220],  
+["Dear Hydration Lightening Cream Alpha Arbutin 60gm","4xsk32GP/f1f2cbbf-426e-4161-a55f-77a656543c1a.jpg",220,150],  
+["Dear Hydration Moisturizing Gel 200gm","HLvfBpyQ/0f10ff61-6d1c-4ad8-bb66-5989350e68d5.jpg",220,135],  
+["CeraVe Moisturising Lotion For Dry to Very Dry Skin","yxHnT5LC/8076adab-289f-40d6-95f7-44b42fcd0596.jpg",1030,799],  
+["CeraVe Foaming Cleanser For Normal to Oily Skin","jqHMjxjb/4583b334-f38c-41c4-8477-a2e9e136d1ca.jpg",1030,799],  
+["BOBAI Hydrocare Sunscreen Gel SPF 50+ 1+1","SNmD2BX2/8189ae85-9cab-47e4-ba4b-3962b95982a7.jpg",700,360],  
+["BOBAI Sunscreen Cream SPF 50+ 1+1","VL44jKMD/c0adbba6-a5d8-4a12-b32b-8d509aa85980.jpg",450,220],  
+["Bobai mist spray","DwMgNmx4/f01afbd6-3cf8-4e87-92e9-ebc88554fee7.jpg",395,350],  
+["BOBAI Crystal Clear Gel Sunscreen SPF 50+ 1+1","dtQjtGXV/33e65ce7-5741-42ec-a20d-1b49a793c588.jpg",500,390],  
+["BOBAI Extra Lightening Gel Sunscreen SPF 50+ 50g","VL7BSdQ4/63560936-9b94-4cfb-b23c-739c7f8fede5.jpg",350,325],  
+["BOBAI Sunscreen Lotion SPF 50+ 1+1 – 120ml","GmHPvddZ/6315b9ea-67b6-4a96-81be-2c050e32974a.jpg",500,250],  
+["Derma Ten Derma Powers Glycolic Acid 30ml","jjfzkcwj/a2217569-0e65-4103-94d3-3bb08c189593.jpg",330,220],  
+["Derma Ten Derma Powers Firming Power 30ml","9MjG39Zt/c0d00396-a1c2-4edb-af49-f7742aab438e.jpg",330,220],  
+["Derma Ten Derma Powers Acne Fighting Power 30ml","J0rZ0WpY/1d4fd33b-0a97-4fed-a203-e4bfc49ded86.jpg",330,220],  
+["Derma Ten Derma Powers Glowing Power Vitamin C 10% 30ml","qqJyqdmt/29c107bc-4b53-423c-a1ba-29a953e5d857.jpg",330,220],  
+["Derma Ten Hydra Brightening Power Alpha Arbutin 2% 30ml","h4sVwfj4/9b9987aa-2411-4fb1-bfab-f18534c7d2d8.jpg",330,220],  
+["Derma Ten Derma Powers Soothing Power 30ml","GhSGLVvt/eae33e15-1328-46ed-80f4-e143f63da248.jpg",330,220],  
+["Derma Ten Derma Powers Pore Refining Power Niacinamide 5% 30ml","25nZx5MD/92bcd4e7-3f36-4d32-b731-5433c39e806b.jpg",330,220],  
+["Derma Ten Hydra Power Hyaluronic Acid 2% 30ml","k4cRkp7w/3e17d052-9bc0-43ae-82cf-df39eeac2921.jpg",330,220],  
+["Derma Ten Derma Powers Anti-Aging Power Retinol 1% 30ml","XqYB3kJj/5cc07618-e2f2-4988-8bd4-3f43b018b92a.jpg",330,220],  
+["Eye Contour serumCaffeine 5% + Retinol+ HA","sxHQ2GQB/35a06cef-3735-4134-b064-71fd03468747.jpg",330,220],  
+["Melatime Sunscreen Cream Gel SPF 50+","VvZrN0rZ/a53fe4d5-8a62-4c77-b6c0-2ae4bfc01fa4.jpg",390,130],  
+["Melatime Sunscreen Sun Gel SPF 50+ – 50g","Fs1kBp86/cf06bf3e-f9bf-4402-9d29-fbac68fff193.jpg",750,225],  
+["Kolagra Oily Skin Cleanser B3 – 200ml","28JLRvfm/69cc2327-bdd6-4ea9-93a4-53f0d9c619d4.jpg",165,130],  
+["Kolagra Acne Prone Skin Bar B3 – 100g","t4xZXTXB/3e67d03c-8660-4e5d-b312-45e2deec8a01.jpg",null,65],  
+["Kolagra Sunscreen Dry Touch Gel Cream SPF 50+ – 50ml","HL1JjgnH/82847269-1980-411c-bf7d-a9704df13fbd.jpg",310,110],  
+["SHAAN Facial Cleanser – 200ml","Px2N6vMR/ba7b5c1d-5ed4-4ece-b930-8d0f04fbee3d.jpg",null,175],  
+["SHAAN CICA Cream Double Repair Moisturizer – 60gm","XqqqtNHJ/a16d7e14-1f1b-4ce2-9b15-afb305d9faaf.jpg",200,190],  
+["SHAAN Soothing Gel – 120gm","L5W5SdGK/1e088c4c-d70f-4d06-a75d-b52a15eb6fab.jpg",null,170],  
+["SHAAN Rejuvenation Cream – 120gm","VL3vH8jQ/bb64042c-e71c-48af-aa07-c93279314290.jpg",175,165],  
+["Telofill Biphasic Micellar Water – 250ml","BnH6rVgN/f8b9dfca-47a9-477e-81c3-f46e0e8ae233.jpg",350,280],  
+["Telofill Anti-Blemish Serum – 30ml","FKvRNVWC/56c5d0fa-bcae-4436-95e5-9678cfa4a78e.jpg",450,325],  
+["Telofill Ultra-Light Facial Moisturizing Gel – 50g","6QK3tfbq/8d0561e9-b19c-452a-b451-a828df6b471f.jpg",330,260],  
+["Telofill Cica Cream – 50g","0NCNQKhn/055c11a3-81ec-43a8-bb47-19f51307b26d.jpg",220,180],  
+["Telofill Clarifying Gel Cleanser – 200ml","sxMfw6x7/a7873179-bd8d-478f-a78c-64b4f30c7249.jpg",280,220],  
+["Beesline Whitening Intimate Wash – 200ml","fy1zFcSp/5cfadcd7-04d3-421a-b10b-c7c0d7bc328c.jpg",450,390],  
+["Beesline Instant Bright Facial Toner","28B8WKPC/40484a76-dd8c-43e0-a4f7-ac8377c00e2a.jpg",570,420],  
+["Beesline Instant Bright 5 in 1 Cleanser","8Cw1DQr6/d1206532-2f3a-467c-afb0-54b8e64ad9d0.jpg",650,430],  
+["Leylak Cleansing Gel","25PfCkSd/bfbac587-9ca0-497b-b1f0-c3fd74e3d6a5.jpg",350,289],  
+["Leylak Hyaluronic Acid Hydrating Serum 30ml","qqGfc2X3/73f13245-1246-40d1-8e4a-c8bcb071d235.jpg",null,365],  
+["Leylak Hyalu Cica Serum – 30ml","WzTC4hLD/14b5b69b-47c7-4fe6-955e-de03c32c7b77.jpg",450,365],  
+["Leylak Hyalu Vitamin C 10% Serum 30ml","4yPMHss6/47f085c6-6fa8-4ab9-83a5-e6f13bb12166.jpg",450,365],  
+["Leylak Eye Contour Gel – 15ml","FsP89rT2/e6a5e9da-ab70-4a87-b3b1-358ee82b8045.jpg",350,300],  
+["Leylak SPF 50+ Aqua Invisible Fluid – 50ml","FH7qzMqK/fdddd9b1-84b4-47d5-84d6-d15037ab4c58.jpg",355,305],  
+["Leylak Moisturizing Gel – 50ml","XYphqRhs/3180981a-eb3e-4714-ad90-1f08700741eb.jpg",250,200],  
+["Leylak Whitening Emulsion – 50ml","9QKk7xHH/cb265c41-fccf-4db3-9cc5-ed13b817eb20.jpg",350,275],  
+["Leylak Moisturizing Gel – 100ml","JhX2cbRn/51bb712f-47c1-4474-83e2-320b632b6679.jpg",350,300],  
+["Nano Treat Oily Skin Cleanser Advanced (200 ml )","pVcJrmtf/ba2c65b2-5c71-4c00-be1e-abef5e6eb696.jpg",150,100],  
+["Vacation Sebio-Control Purifying Skin Toner (200 ml)","Yq4fWtrH/c655fff8-1817-46f5-aded-56999eb1e8ac.jpg",400,240],  
+["Vacation Aqua-Repair Air Wash Micellar Water (200 ml)","wTtcm9qJ/a63b4bca-b0bc-4df0-b2ae-2b489451b376.jpg",230,180],  
+["Vacation SPF 50+ Sunscreen Lotion & Cream 1+1","YqJNNT01/22caf5fa-3508-4303-ac3b-946b29e9c811.jpg",550,380],  
+["Vacation SPF 50+ Sunscreen Cream Gel 1+1 – 60ml","x1Mv6gNZ/b16588b3-5e9d-4069-842b-b0900068dce4.jpg",550,420],  
+["Vacation SPF 50+ Sunscreen Spray 1+1 – 200ml","N0t1ST1Q/d0871c0c-89ef-421b-a58d-fc45282a8573.jpg",550,450],  
+["Vacation Sebio-Control Cleansing Gel – 200ml","cJWQ2YQQ/38fdb946-72af-4e9c-8788-49208c119ca6.jpg",295,190],  
+["Vacation Pro Series Hyaluronic Acid Serum 3% – 30ml","zfknrBjc/b9889a93-912c-4d31-ae5b-81ac7ceef304.jpg",410,350],  
+["Vacation Pro Series Niacinamide Serum 10% – 30ml","B6YHjVRn/c0ecdd6e-44d5-493e-a0a0-5c17ecd42dcf.jpg",400,320],  
+["Vacation Pro Series Retinol Serum – 30ml","MHnRVY8L/2c4cd772-812a-4163-8904-be1ce263e86b.jpg",470,360],  
+["Vacation Pro Series Vitamin C Serum 10% – 30ml","mkK9wFLF/65cc8018-d18d-436c-a41a-38dcdc8277e1.jpg",470,320],  
+["KIARA Soft Eye Contour Cream 30ml","NjD6hFb9/65e80e32-4bce-4dee-a815-99e7b0017cdb.jpg",300,249],  
+["KIARA Soft Retinol Serum 30ml","VNNjzwVf/8c75ac83-8149-4516-bf16-70b54f113825.jpg",300,245],  
+["KIARA Soft Hyaluronic Acid Serum 30ml","4dDtv94q/e46424ed-1319-4100-965f-6789943f1df0.jpg",300,245],  
+["KIARA Soft Vitamin C Serum 30ml","9X9ymJJF/b895153b-147a-4592-8713-0306ee62671b.jpg",300,245],  
+["Kiara Soft Skin Emollient Cream 120gm","tCHWYWc0/48c3bd82-5c33-43dc-99c9-cc2c1c06c89a.jpg",300,225],  
+["Kiara Soft Facial Cleanser Gel 250ml","g2gZS5kM/e8534789-d0a5-43f3-bbe0-0e01ed1dcb23.jpg",320,240],  
+["Kiara Soft Facial Cleanser Gel 250ml","0NrJLfzm/4da90fc1-f83c-4eae-98d0-21092c8fa48b.jpg",320,240],  
+["Kiara Skin Emollient Cream 60gm","JnkHhzc4/8cbdd002-b45f-4a4d-aff5-341dd291fe28.jpg",200,130],  
+["Kiara Soft Skin Emollient Cream 60gm","8kLrQszW/48c3bd82-5c33-43dc-99c9-cc2c1c06c89a.jpg",200,130],  
+["EVA Skin Clinic Niacinamide Face Serum","0yXzdwch/c1a9a1df-a9f1-4dc3-86b8-75c5865cb1ad.jpg",300,220],  
+["EVA Skin Clinic Anti-Ageing 1.5% Hyaluronic Acid Face Serum","jjWL8S1x/09698fab-bced-4f3e-a0f5-ebc8a8a23195.jpg",300,220],  
+["EVA Skin Clinic Anti-Ageing 15% Vitamin C Face Serum","3wPWzHMp/3b47e052-34e1-4cf8-b2db-75c93918771e.jpg",300,220],  
+["EVA Facial Wash Yogurt & Cucumber","XJdXbD4Z/82b16796-9287-44e6-a2d2-4e4dd8661f56.jpg",100,85],  
+["See Lit Hyaluronic Facial Cleanser 150ml","J0QnyDs3/18b8a49f-6753-466a-a1f0-bc7de8befb55.jpg",250,149],  
+["SKINSIDE Reboost 3 in 1 Lightening Cleanser","Wz73DFDR/2dfff168-f2b1-4277-bf46-268ffe2cf893.jpg",350,199],  
+["Dermactive Ultra Solaire Hydro-Protect Mist SPF 50+ – 150ml","mgkDDrBn/02c1a157-2c7a-44ed-89bb-86b19d24506c.jpg",300,275],  
+["Dermactive Acti-Repair Smoothing Cream 200ml","CKfxG6Zv/7f9aa214-cd02-4a33-a13f-9496e99f2a5d.jpg",300,285],  
+["Dermactive Acti-Repair Cica Cream 50ml","L8GH8Byf/bfe0258d-5240-4cac-ae6f-0d8b265cb2c9.jpg",200,180],  
+["Dermactive Acti-Repair Moisturizing Face Hydro Gel 50ml","fLNDxWnK/10d443a9-5812-4520-ba14-7ed93b1aa064.jpg",200,180],  
+["Dermactive Acti Solaire Ultra Fluid SPF 50+ 50ml","qRx0Qfps/2eb05fcd-848b-4598-a082-d9c4916ca633.jpg",300,280],  
+["Dermactive Acti Solaire Melting Cream SPF 50+ 50ml","2yHYR4bm/3435b0bc-e0ce-4138-89e0-dd9804230703.jpg",300,280],  
+["Dermactive Acti-White Eye Contour Care Cream Gel 15ml","DZ6kLqc8/5e4cedac-533f-44c1-9ce3-be6237e88fce.jpg",225,195],  
+["Dermactive Acti-White Depigmenting Cream 50ml","CMvpKs5y/9378c410-1bd1-4b94-8bf6-c3b5f2f05653.jpg",250,200],  
+["Dermactive Acti-Clear Gentle Cleansing Foaming Gel 250ml","3Jd5000k/e2d9b447-0bc6-462a-83d2-65bcb94b78ff.jpg",260,210],  
+["Dermactive Acti-White Brightening Correcting Serum 30ml","gjj5h1j2/d7674455-9756-4633-91ba-3a910885bde5.jpg",300,250],  
+["Dermactive Acti-White Brightening Foaming Gel 200ml","c1kPW1kJ/adeae5c8-5c6b-484a-ae55-19205eea3c76.jpg",250,185],  
+["Dermactive Acti-Repair Emollient Extreme 200ml","02L36Wqc/49acc682-ed78-4e85-a5d2-9fcc79f4790b.jpg",300,275],  
+["Dermactive Acti-Clear Hydra-Mattifying Cream Gel 50ml","4dNFCjzp/06feb32f-1f64-431f-9f07-3d1c3b0fc0c1.jpg",200,180],  
+["Dermactive Acti-Clear Global AC Cream Gel 50ml","Jn6YRKqP/5ac03bb8-1382-4168-ba41-21df63dc4364.jpg",250,220],  
+["Dermactive Acti-Clear Correcting Serum 30ml","6qFHv3Fh/690a55e4-bdd9-409b-a0b8-d51095375bc5.jpg",300,250],  
+["Dermactive Acti-Clear Gentle Cleansing Foaming Gel 200ml","J7FYg6tj/ec518801-f6b1-4eae-910e-997a281323d7.jpg",200,185],  
+["Dermactive Acti-Clear Gentle Cleansing Foaming Gel 1+1","7Z8sP538/b1ba09b1-5b88-42c8-91a0-3e307b400713.jpg",275,225],  
+["Dermactive Acti-Clear Hydra-Mattifying Cream Gel 1+1","nh4dXn21/41de48d2-4be1-4cc8-b65f-66ce1978e219.jpg",275,225],  
+["Dermactive Acti-Repair Soothing Cleansing Gel 200ml","XvxQgxTV/627bcd3f-c8f0-4b9e-8662-72527a22542d.jpg",230,185],  
+["Tetra Hydro Ceramide Barrier Gel","63mckqW0/de165274-0131-44a1-92eb-1d5970a9c6e1.jpg",300,260],  
+["Tetra Hydro Ceramide Gel Cleanser (250 ml)","Y0LRM7jK/262f7fef-f6e1-4e54-bc4c-a676febad1df.jpg",250,200],  
+["Tetra Hydro Ceramide Creamy Cleanser (250 ml)","K4XNYWgD/752fbe62-87da-4258-bead-fc8ce906421a.jpg",230,200],  
+["Tetra Hydro Daily Gel Cleanser (200 ml)","DwT9jjYd/245b6217-818b-41b4-9e73-af98464dddf9.jpg",150,120],  
+["Infinity Whitening Sun Screen Lotion SPF 50+ – 50ml","nLV6ZsxV/7dbbc31b-4d58-4d48-8309-f8639dc7525d.jpg",300,199],  
+["Infinity Oil Control Sunscreen Gel-Cream SPF 50+","9MrKRvzJ/3de4cd70-d667-4fbb-ab9d-2de57cb94fe3.jpg",350,280],  
+["LEAVES Instant Hydrating Creamy Gel 75ml","3RV6gnvr/faa018c6-e664-42ab-a7b1-a8472470b8be.jpg",200,145],  
+["LEAVES Hydro Gel Sunscreen SPF 50+ 50ml","gjh748Vh/3f098a26-7a8b-45ed-8583-5ac5a2cee867.jpg",300,199],  
+["LEAVES Cooling & Hydrating After Sun Cream 100ml","T1bsQgV4/cfe46f73-0d23-4d35-9216-c5be45352aa2.jpg",150,125],  
+["Clinique Dramatically Different Moisturizing Gel 125ml","TYrSDjYR/58962af8-3d74-4d85-87e5-d3bd3120d040.jpg",1900,1600],  
+["PanOxyl Acne Creamy Wash 4% Benzoyl Peroxide – 170g","dV6xWqyB/418f3684-6928-4907-b360-5cab8cfa8b88.jpg",1450,1150]  
+];  
+</script>  
+<script>  
+const API_URL = "https://script.google.com/macros/s/AKfycbywmIh2tIAU-_eEB-O9epM0F3b8VXMvxvl-_h0gTRu1GX0jXyxR5FM3Fzk28i618mY7Pw/exec";  
+const translations = {  
+ar: {  
+home: "الرئيسية",  
+products: "المنتجات",  
+contact: "تواصل معنا",  
+heroText: "اختاري جمالك بعناية 💗",  
+categoriesTitle: "الأقسام",  
+categoriesSubtitle: "اختاري القسم اللي تحبيه",  
+back: "رجوع",  
+cartTitle: "سلة المشتريات",  
+total: "الإجمالي",  
+checkout: "إتمام الطلب",  
+checkoutTitle: "إتمام الطلب",  
+name: "الاسم",  
+phone: "رقم الهاتف",  
+address: "العنوان",  
+paymentTitle: "طريقة الدفع",  
+paymentInsta: "InstaPay (انستا باي)",  
+paymentCash: "الدفع نقدًا عند الاستلام",  
+sendOrder: "إتمام الطلب",  
+footerText: "جمالك يستاهل الأفضل 💗",  
+addToCart: "أضف للسلة",  
+emptyCart: "السلة فاضية",  
+productAdded: "تمت الإضافة ✓",  
+shippingPlus: "+ مصاريف الشحن",  
+amountText: "الكمية: ",  
+searchAll: "ابحث عن أي منتج...",  
+searchCategory: "ابحث داخل هذا القسم...",  
+namePlaceholder: "اكتب اسمك",  
+phonePlaceholder: "اكتب رقم الهاتف",  
+addressPlaceholder: "اكتب العنوان بالتفصيل",  
+searchResults: "نتائج البحث",  
+noResults: "لا توجد منتجات مطابقة للبحث"  
+},  
+en: {  
+home: "Home",  
+products: "Products",  
+contact: "Contact",  
+heroText: "Choose your beauty with care 💗",  
+categoriesTitle: "Categories",  
+categoriesSubtitle: "Choose your favorite category",  
+back: "Back",  
+cartTitle: "Shopping Cart",  
+total: "Total",  
+checkout: "Checkout",  
+checkoutTitle: "Checkout",  
+name: "Name",  
+phone: "Phone Number",  
+address: "Address",  
+paymentTitle: "Payment Method",  
+paymentInsta: "InstaPay",  
+paymentCash: "Cash on Delivery",  
+sendOrder: "Checkout",  
+footerText: "Your beauty deserves the best 💗",  
+addToCart: "Add to Cart",  
+emptyCart: "Your cart is empty",  
+productAdded: "Added ✓",  
+shippingPlus: "+ Shipping fees",  
+amountText: "Amount: ",  
+searchAll: "Search for any product...",  
+searchCategory: "Search in this category...",  
+namePlaceholder: "Enter your name",  
+phonePlaceholder: "Enter your phone number",  
+addressPlaceholder: "Enter your full address",  
+searchResults: "Search Results",  
+noResults: "No matching products found"  
+}  
+};  
+let currentLang = "ar";  
+let cart = [];  
+let currentProducts = [];  
+let modalProduct = null;  
+window.activeCategoryName = "";  
+window.searchMode = false;  
+const IMG_BASE = "https://i.postimg.cc/";  
+// تجميع المنتجات القديمة الثابتة  
+const initialStaticProducts = {  
+"Korean": (typeof koreanRaw !== "undefined" ? koreanRaw : []).map(r => ({ name: r[0], image: IMG_BASE + r[1], oldPrice: r[2], newPrice: r[3], category: 'Korean' })),  
+"Skin Care": (typeof skinRaw !== "undefined" ? skinRaw : []).map(r => ({ name: r[0], image: IMG_BASE + r[1], oldPrice: r[2], newPrice: r[3], category: 'Skin Care' })),  
+"Hair Care": (typeof hairRaw !== "undefined" ? hairRaw : []).map(r => ({ name: r[0], image: IMG_BASE + r[1], oldPrice: r[2], newPrice: r[3], category: 'Hair Care' })),  
+"Kids": (typeof kidsRaw !== "undefined" ? kidsRaw : []).map(r => ({ name: r[0], image: IMG_BASE + r[1], oldPrice: r[2], newPrice: r[3], category: 'Kids' })),  
+"Body Care": []  
+};  
+let dynamicCategoryProducts = JSON.parse(JSON.stringify(initialStaticProducts));  
+let isSheetFetched = false;  
+async function fetchSheetProducts() {  
+if (isSheetFetched) return;  
+try {  
+const res = await fetch(API_URL);  
+const sheetData = await res.json();  
+if (sheetData && Array.isArray(sheetData)) {  
+// إعادة البناء بدواعي إزالة التكرار  
+let tempCat = JSON.parse(JSON.stringify(initialStaticProducts));  
+sheetData.forEach(p => {  
+let cat = p.category || "Skin Care";  
+if (!tempCat[cat]) {  
+tempCat[cat] = [];  
+}  
+// منع التكرار بناءً على اسم المنتج  
+const exists = tempCat[cat].some(item => item.name.trim().toLowerCase() === p.name.trim().toLowerCase());  
+if (!exists) {  
+tempCat[cat].push({  
+id: p.id,  
+name: p.name,  
+image: p.image_url || '',  
+oldPrice: p.old_price || null,  
+newPrice: p.new_price,  
+category: cat  
+});  
+}  
+});  
+dynamicCategoryProducts = tempCat;  
+isSheetFetched = true;  
+}  
+} catch (err) {  
+console.error("Error loading sheet products:", err);  
+}  
+}  
+function similarityScore(s1, s2) {  
+let longer = s1, shorter = s2;  
+if (s1.length < s2.length) { longer = s2; shorter = s1; }  
+let longerLength = longer.length;  
+if (longerLength === 0) return 1.0;  
+return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);  
+}  
+function editDistance(s1, s2) {  
+s1 = s1.toLowerCase(); s2 = s2.toLowerCase();  
+let costs = new Array();  
+for (let i = 0; i <= s1.length; i++) {  
+let lastValue = i;  
+for (let j = 0; j <= s2.length; j++) {  
+if (i === 0) costs[j] = j;  
+else {  
+if (j > 0) {  
+let newValue = costs[j - 1];  
+if (s1.charAt(i - 1) !== s2.charAt(j - 1))  
+newValue = Math.min(Math.min(newValue, lastValue), costs[j]) + 1;  
+costs[j - 1] = lastValue;  
+lastValue = newValue;  
+}  
+}  
+}  
+if (i > 0) costs[s2.length] = lastValue;  
+}  
+return costs[s2.length];  
+}  
+function matchQuery(productName, query) {  
+if (!query) return true;  
+let pName = productName.toLowerCase();  
+let q = query.toLowerCase();  
+if (pName.includes(q)) return true;  
+let words = pName.split(" ");  
+let qWords = q.split(" ");  
+for (let qw of qWords) {  
+if (qw.length < 2) continue;  
+let matched = false;  
+for (let pw of words) {  
+if (similarityScore(pw, qw) >= 0.65 || pw.includes(qw)) {  
+matched = true;  
+break;  
+}  
+}  
+if (!matched) return false;  
+}  
+return true;  
+}  
+function applyPlaceholders() {  
+document.querySelectorAll("[data-placeholder]").forEach(function(el) {  
+const key = el.getAttribute("data-placeholder");  
+if (translations[currentLang][key]) {  
+el.placeholder = translations[currentLang][key];  
+}  
+});  
+}  
+function toggleLanguage() {  
+currentLang = currentLang === "ar" ? "en" : "ar";  
+const htmlRoot = document.getElementById("html-root");  
+htmlRoot.lang = currentLang;  
+htmlRoot.dir = currentLang === "ar" ? "rtl" : "ltr";  
+document.querySelectorAll("[data-translate]").forEach(function(element) {  
+const key = element.getAttribute("data-translate");  
+if (translations[currentLang][key]) {  
+element.innerText = translations[currentLang][key];  
+}  
+});  
+applyPlaceholders();  
+document.getElementById("language-btn-text").innerText = currentLang === "ar" ? "EN" : "AR";  
+document.getElementById("payment-insta-text").innerText = translations[currentLang].paymentInsta;  
+document.getElementById("payment-cash-text").innerText = translations[currentLang].paymentCash;  
+document.getElementById("floating-checkout-text").innerText = translations[currentLang].checkout;  
+const productsVisible = document.getElementById("products-page").style.display === "block";  
+if (productsVisible) {  
+if (window.searchMode) {  
+document.getElementById("category-title").innerText = translations[currentLang].searchResults;  
+const q = document.getElementById("general-search-input").value;  
+handleGeneralSearch(q, true);  
+} else if (window.activeCategoryName) {  
+const q = document.getElementById("category-search-input").value;  
+openCategory(window.activeCategoryName, true);  
+document.getElementById("category-search-input").value = q;  
+handleCategorySearch(q);  
+}  
+}  
+if (modalProduct) {  
+document.getElementById("modal-add-btn").innerHTML =  
+'<i class="fa-solid fa-cart-plus"></i> ' + translations[currentLang].addToCart;  
+}  
+updateCart();  
+}  
+function hideAllPages() {  
+document.getElementById("home-page").style.display = "none";  
+document.getElementById("products-page").style.display = "none";  
+document.getElementById("cart-page").style.display = "none";  
+document.getElementById("checkout-page").style.display = "none";  
+}  
+function showHome() {  
+closeProductModal();  
+window.searchMode = false;  
+hideAllPages();  
+document.getElementById("home-page").style.display = "block";  
+document.getElementById("general-search-input").value = "";  
+refreshFloating();  
+window.scrollTo({ top: 0, behavior: "smooth" });  
+}  
+async function handleGeneralSearch(query, keepScroll) {  
+query = (query || "").trim();  
+if (!query) {  
+if (window.searchMode) showHome();  
+return;  
+}  
+await fetchSheetProducts();  
+let allProds = [];  
+for (let cat in dynamicCategoryProducts) {  
+allProds = allProds.concat(dynamicCategoryProducts[cat]);  
+}  
+let filtered = allProds.filter(p => matchQuery(p.name, query));  
+window.searchMode = true;  
+hideAllPages();  
+document.getElementById("products-page").style.display = "block";  
+document.getElementById("category-title").innerText = translations[currentLang].searchResults;  
+document.getElementById("category-search-input").value = "";  
+renderProductsGrid(filtered);  
+refreshFloating();  
+if (!keepScroll) window.scrollTo({ top: 0, behavior: "smooth" });  
+}  
+function handleCategorySearch(query) {  
+if (window.searchMode) {  
+handleGeneralSearch(document.getElementById("general-search-input").value, true);  
+return;  
+}  
+let products = dynamicCategoryProducts[window.activeCategoryName] || [];  
+let filtered = products.filter(p => matchQuery(p.name, query));  
+renderProductsGrid(filtered);  
+}  
+function openCategory(categoryName, keepScroll) {  
+closeProductModal();  
+window.searchMode = false;  
+window.activeCategoryName = categoryName;  
+hideAllPages();  
+document.getElementById("products-page").style.display = "block";  
+document.getElementById("category-title").innerText = categoryName;  
+document.getElementById("category-search-input").value = "";  
+document.getElementById("products-grid").innerHTML = "";  
+let products = dynamicCategoryProducts[categoryName] || [];  
+renderProductsGrid(products);  
+refreshFloating();  
+if (!keepScroll) window.scrollTo({ top: 0, behavior: "smooth" });  
+fetchSheetProducts().then(() => {  
+if (window.activeCategoryName === categoryName) {  
+renderProductsGrid(dynamicCategoryProducts[categoryName] || []);  
+}  
+});  
+}  
+function renderProductsGrid(products) {  
+currentProducts = products;  
+const productsGrid = document.getElementById("products-grid");  
+productsGrid.innerHTML = "";  
+if (products.length === 0) {  
+productsGrid.innerHTML = <p style="grid-column: 1/-1; text-align: center; color: #888; padding: 30px;">${translations[currentLang].noResults}</p>;  
+return;  
+}  
+products.forEach(function(product, index) {  
+const imageBlock = product.image  
+? <div class="product-image-wrap"><img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/200?text=BM+Cosmetics'"></div>  
+: <div class="product-image-wrap" style="display:flex; align-items:center; justify-content:center; background:#fff5f8;"> <i class="fa-solid fa-heart" style="font-size:65px; color:#ffb6c1;"></i> </div>;  
+const oldPriceHTML = product.oldPrice ? <span class="old-price">${product.oldPrice} EGP</span> : '';  
+const productHTML = <div class="product-card" onclick="openProductModal(${index})"> ${imageBlock} <div class="product-info"> <div class="product-name">${product.name}</div> <div class="product-price"> ${oldPriceHTML} <span class="new-price">${product.newPrice} EGP</span> </div> <button class="add-cart-btn" onclick="event.stopPropagation(); addToCartByIndex(${index}, this)"> <i class="fa-solid fa-cart-plus"></i> ${translations[currentLang].addToCart} </button> </div> </div>;  
+productsGrid.insertAdjacentHTML("beforeend", productHTML);  
+});  
+}  
+function openProductModal(index) {  
+const product = currentProducts[index];  
+if (!product) return;  
+modalProduct = product;  
+const imgWrap = document.getElementById("modal-image-wrap");  
+if (product.image) {  
+imgWrap.innerHTML = <img src="${product.image}" alt="${product.name}" onerror="this.src='https://via.placeholder.com/300?text=BM+Cosmetics'">;  
+} else {  
+imgWrap.innerHTML = <i class="fa-solid fa-heart"></i>;  
+}  
+document.getElementById("modal-name").innerText = product.name;  
+document.getElementById("modal-price").innerHTML =  
+(product.oldPrice ? <span class="old-price">${product.oldPrice} EGP</span> : '') +  
+<span class="new-price">${product.newPrice} EGP</span>;  
+document.getElementById("modal-add-btn").innerHTML =  
+'<i class="fa-solid fa-cart-plus"></i> ' + translations[currentLang].addToCart;  
+const modal = document.getElementById("product-modal");  
+modal.classList.add("open");  
+document.body.style.overflow = "hidden";  
+requestAnimationFrame(function() {  
+requestAnimationFrame(function() {  
+modal.classList.add("visible");  
+});  
+});  
+}  
+function closeProductModal(event) {  
+if (event && event.target && event.target.id !== "product-modal") return;  
+const modal = document.getElementById("product-modal");  
+if (!modal.classList.contains("open")) return;  
+modal.classList.remove("visible");  
+modalProduct = null;  
+document.body.style.overflow = "";  
+setTimeout(function() {  
+if (!modal.classList.contains("visible")) {  
+modal.classList.remove("open");  
+}  
+}, 250);  
+}  
+document.addEventListener("keydown", function(e) {  
+if (e.key === "Escape") closeProductModal();  
+});  
+function addFromModal(button) {  
+if (!modalProduct) return;  
+addToCart(modalProduct.name, modalProduct.newPrice, modalProduct.image || "", button);  
+}  
+function addToCartByIndex(index, button) {  
+const p = currentProducts[index];  
+if (!p) return;  
+addToCart(p.name, p.newPrice, p.image || "", button);  
+}  
+function addToCart(name, price, image, button) {  
+let existingItem = cart.find(item => item.name === name && item.price === Number(price));  
+if (existingItem) {  
+if (existingItem.quantity < 10) {  
+existingItem.quantity += 1;  
+}  
+} else {  
+cart.push({  
+name: name,  
+price: Number(price),  
+image: image,  
+quantity: 1  
+});  
+}  
+updateCart();  
+if (button) {  
+const originalHTML = button.innerHTML;  
+button.innerHTML = '<i class="fa-solid fa-check"></i> ' + translations[currentLang].productAdded;  
+button.disabled = true;  
+setTimeout(function() {  
+button.innerHTML = '<i class="fa-solid fa-cart-plus"></i> ' + translations[currentLang].addToCart;  
+button.disabled = false;  
+}, 900);  
+}  
+}  
+function changeQuantity(index, delta) {  
+let newQty = cart[index].quantity + delta;  
+if (newQty >= 1 && newQty <= 10) {  
+cart[index].quantity = newQty;  
+updateCart();  
+}  
+}  
+function refreshFloating() {  
+const btn = document.getElementById("floating-checkout");  
+if (!btn) return;  
+const count = cart.reduce((sum, item) => sum + item.quantity, 0);  
+const inCart = document.getElementById("cart-page").style.display === "block";  
+const inCheckout = document.getElementById("checkout-page").style.display === "block";  
+if (count > 0 && !inCart && !inCheckout) {  
+btn.classList.add("show");  
+} else {  
+btn.classList.remove("show");  
+}  
+}  
+function updateCart() {  
+let totalCount = 0;  
+cart.forEach(item => totalCount += item.quantity);  
+document.getElementById("cart-count").innerText = totalCount;  
+document.getElementById("floating-cart-number").innerText = totalCount;  
+refreshFloating();  
+const cartItems = document.getElementById("cart-items");  
+if (!cartItems) return;  
+const shipPlus = document.getElementById("ship-plus");  
+if (cart.length === 0) {  
+cartItems.innerHTML = <div class="empty-cart"> <i class="fa-solid fa-cart-shopping"></i> <p>${translations[currentLang].emptyCart}</p> </div>;  
+document.getElementById("cart-total-price").innerText = "0 EGP";  
+if (shipPlus) shipPlus.style.display = "none";  
+document.getElementById("checkout-button").style.display = "none";  
+return;  
+}  
+if (shipPlus) shipPlus.style.display = "";  
+document.getElementById("checkout-button").style.display = "block";  
+let total = 0;  
+cartItems.innerHTML = "";  
+cart.forEach(function(item, index) {  
+total += Number(item.price) * item.quantity;  
+cartItems.insertAdjacentHTML("beforeend", <div class="cart-item"> ${item.image ?<img class="cart-item-image" src="${item.image}" alt="${item.name}" onerror="this.src='https://via.placeholder.com/80?text=BM'">:  
+<div class="cart-item-image" style="display:flex; align-items:center; justify-content:center; color:#ffb6c1; font-size:25px;">  
+<i class="fa-solid fa-heart"></i>  
+</div>  
+} <div class="cart-item-info"> <div class="cart-item-name">${item.name}</div> <div class="cart-item-price">${item.price * item.quantity} EGP</div> <div class="quantity-controls"> <button class="qty-btn" onclick="changeQuantity(${index}, 1)">+</button> <span class="qty-display">${translations[currentLang].amountText}${item.quantity}</span> <button class="qty-btn" onclick="changeQuantity(${index}, -1)">-</button> </div> </div> <button class="remove-item" onclick="removeFromCart(${index})"> <i class="fa-solid fa-trash"></i> </button> </div> );  
+});  
+document.getElementById("cart-total-price").innerText = total + " EGP";  
+}  
+function removeFromCart(index) {  
+cart.splice(index, 1);  
+updateCart();  
+}  
+function showCart() {  
+closeProductModal();  
+hideAllPages();  
+document.getElementById("cart-page").style.display = "block";  
+updateCart();  
+window.scrollTo({ top: 0, behavior: "smooth" });  
+}  
+function showCheckout() {  
+if (cart.length === 0) return;  
+closeProductModal();  
+hideAllPages();  
+document.getElementById("checkout-page").style.display = "block";  
+refreshFloating();  
+window.scrollTo({ top: 0, behavior: "smooth" });  
+}  
+function submitOrder() {  
+if (cart.length === 0) return;  
+const name = document.getElementById("customer-name").value.trim();  
+const phone = document.getElementById("customer-phone").value.trim();  
+const address = document.getElementById("customer-address").value.trim();  
+const checkedPay = document.querySelector('input[name="payment-method"]:checked');  
+const paymentMethod = (checkedPay && checkedPay.value) || "InstaPay";  
+if (!name || !phone || !address) {  
+alert(currentLang === "ar" ? "من فضلك املأ كل البيانات المطلوبة" : "Please fill in all required information.");  
+return;  
+}  
+const orderDetails = cart.map(function(item) {  
+return - ${item.name} (الكمية: ${item.quantity}) - ${item.price * item.quantity} EGP;  
+}).join("\n");  
+const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);  
+const message = مرحباً، اريد طلب المنتجات الآتية:\n +  
+${orderDetails}\n\n +  
+الإجمالي: ${total} EGP + مصاريف الشحن\n\n +  
+الاسم: ${name}\n +  
+الهاتف: ${phone}\n +  
+العنوان: ${address}\n +  
+طريقة الدفع: ${paymentMethod};  
+const whatsappUrl = "https://wa.me/201099872665?text=" + encodeURIComponent(message);  
+window.open(whatsappUrl, "_blank");  
+}  
+document.addEventListener("DOMContentLoaded", function() {  
+try { applyPlaceholders(); } catch (e) { console.error(e); }  
+try { updateCart(); } catch (e) { console.error(e); }  
+fetchSheetProducts();  
+});  
+</script>  
+</body>  
+</html>  
